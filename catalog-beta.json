@@ -7,13 +7,13 @@
       "name": "유통사 대량등록기",
       "description": "CMS 서지 엑셀을 예스24·밀리의서재·알라딘·교보문고·리디북스 대량등록 양식으로 변환하고 Google Sheet의 공용 규칙을 최신화합니다.",
       "category": "유통사 등록",
-      "version": "1.9.1",
+      "version": "1.9.2",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v1.9.1/cp-bulk-upload_1.9.1_win-x64.zip",
-      "packageName": "cp-bulk-upload_1.9.1_win-x64.zip",
-      "packageSize": 36744418,
-      "sha256": "3b4bde5394e99790d84ee07005221129f1f5b69ff73b95bfdf7591440c4d07b7",
-      "releaseNotes": "유통사 대량등록기 최초 통합런처 시험 배포\n\n- 예스24·밀리의서재·알라딘·교보문고·리디북스 지원\n- Google Sheet 기준 규칙 최신화\n- 로컬 규칙 및 템플릿 포함\n- 인증정보와 프로그램 업데이트 분리",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v1.9.2/cp-bulk-upload_1.9.2_win-x64.zip",
+      "packageName": "cp-bulk-upload_1.9.2_win-x64.zip",
+      "packageSize": 36744977,
+      "sha256": "bb2904149a8426d284333f620caa8d3f678de92c4d34bbe5247c0ec1ba17a38e",
+      "releaseNotes": "유통사 대량등록기 업데이트 유지성 시험\n\n- 버전 1.9.1에서 1.9.2로 업데이트\n- Google 인증정보 유지 여부 확인\n- Google 최신 규칙 및 결과폴더 유지 여부 확인\n- 기존 업무 기능은 동일",
       "mandatory": false,
       "order": 20,
       "healthCheckArgs": [
@@ -23,7 +23,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-07-31T06:57:33.553865+00:00"
+      "publishedAt": "2026-07-31T07:17:35.867463+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -49,5 +49,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-07-31T06:57:33.553876+00:00"
+  "generatedAt": "2026-07-31T07:17:35.867496+00:00"
 }
