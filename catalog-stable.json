@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "applications": [
+    {
+      "id": "bookmark-creator",
+      "name": "북마크 자동생성",
+      "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
+      "category": "PDF 도구",
+      "version": "1.0.1",
+      "entrypoint": "bookmark_creator.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/bookmark-creator-v1.0.1/bookmark-creator_1.0.1_win-x64.zip",
+      "packageName": "bookmark-creator_1.0.1_win-x64.zip",
+      "packageSize": 33018228,
+      "sha256": "6101c4d14fd491ab381f2b5fdfca846aa5103e567c6c9cdcbd315110a4525fb3",
+      "releaseNotes": "북마크 자동생성 1.0.1 정식 배포\n\n- 통합런처 설치 및 업데이트 기능 검증 완료\n- PDF 목차 TXT 추출\n- TXT 기반 구조화 Excel 생성\n- 검수된 Excel 기준 PDF 북마크 생성\n- 기존 PDF 북마크 교체",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-07-31T00:34:30.408250+00:00"
+    }
+  ],
+  "generatedAt": "2026-07-31T00:34:30.408277+00:00"
+}
