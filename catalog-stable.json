@@ -3,6 +3,29 @@
   "channel": "stable",
   "applications": [
     {
+      "id": "cp-bulk-upload",
+      "name": "유통사 대량등록기",
+      "description": "CMS 서지 엑셀을 예스24·밀리의서재·알라딘·교보문고·리디북스 대량등록 양식으로 변환하고 Google Sheet의 공용 규칙을 최신화합니다.",
+      "category": "유통사 등록",
+      "version": "1.9.2",
+      "entrypoint": "cp_bulk_upload.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v1.9.2/cp-bulk-upload_1.9.2_win-x64.zip",
+      "packageName": "cp-bulk-upload_1.9.2_win-x64.zip",
+      "packageSize": 36744977,
+      "sha256": "bb2904149a8426d284333f620caa8d3f678de92c4d34bbe5247c0ec1ba17a38e",
+      "releaseNotes": "유통사 대량등록기 정식 배포\n\n- Google Sheet 공용 규칙 최신화 지원\n- Google 인증정보와 프로그램 업데이트 분리\n- 예스24·밀리의서재·알라딘·교보문고·리디북스 지원\n- 런처 업데이트 후 인증정보와 최신 규칙 유지",
+      "mandatory": false,
+      "order": 20,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-07-31T07:20:47.959473+00:00"
+    },
+    {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
       "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
@@ -26,5 +49,5 @@
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
     }
   ],
-  "generatedAt": "2026-07-31T00:34:30.408277+00:00"
+  "generatedAt": "2026-07-31T07:20:47.959500+00:00"
 }
