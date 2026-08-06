@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v0.2.2/KEPA_Launcher_0.2.2_stable_win-x64.zip",
-  "packageName": "KEPA_Launcher_0.2.2_stable_win-x64.zip",
-  "packageSize": 94910228,
-  "sha256": "d9b4219ff156332b127b43d04f9ee1020a2c3e54148cd3b1eb79bf5f1011f36e",
-  "releaseNotes": "KEPA 통합런처 설치형 자동 업데이트 최종 시험\n\n- 설치형 런처 0.2.1에서 0.2.2로 자동 업데이트\n- 제거 프로그램과 바로가기 유지\n- 기존 업무 프로그램 및 사용자 데이터 유지\n- Google 인증정보와 최신 규칙 유지",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.0.0/KEPA_Launcher_1.0.0_stable_win-x64.zip",
+  "packageName": "KEPA_Launcher_1.0.0_stable_win-x64.zip",
+  "packageSize": 94910143,
+  "sha256": "bd2fd1ffa4a6f5d2898e1a60171b9d849bbcadaed03523918cc36b067fce6661",
+  "releaseNotes": "KEPA 통합런처 1.0.0 정식 배포\n\n- 업무 프로그램 통합 설치·업데이트·실행\n- 런처 자체 자동 업데이트\n- Stable/Beta 채널 지원\n- 프로그램 파일과 사용자 데이터 분리\n- Google 인증정보 및 공용 규칙 유지",
   "mandatory": false,
-  "publishedAt": "2026-08-06T06:58:58.948621+00:00"
+  "publishedAt": "2026-08-06T07:50:56.627513+00:00"
 }
