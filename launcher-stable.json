@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "channel": "stable",
+  "version": "0.2.1",
+  "entryPoint": "KepaLauncher.exe",
+  "updaterEntryPoint": "KepaLauncher.Updater.exe",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v0.2.1/KEPA_Launcher_0.2.1_stable_win-x64.zip",
+  "packageName": "KEPA_Launcher_0.2.1_stable_win-x64.zip",
+  "packageSize": 94910186,
+  "sha256": "2132cf201b63125d1251331fc8b2d999a5253cf9d6003eecae5f494f4b601fe4",
+  "releaseNotes": "KEPA 통합런처 0.2.1 정식 배포\n\n- 런처 자체 자동 업데이트 지원\n- 업무 프로그램 설치 및 업데이트 지원\n- 사용자 데이터와 프로그램 파일 분리\n- Stable 채널 정식 배포",
+  "mandatory": false,
+  "publishedAt": "2026-08-06T06:16:59.691244+00:00"
+}
