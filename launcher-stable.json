@@ -8,7 +8,7 @@
   "packageName": "KEPA_Launcher_1.0.0_stable_win-x64.zip",
   "packageSize": 94910143,
   "sha256": "bd2fd1ffa4a6f5d2898e1a60171b9d849bbcadaed03523918cc36b067fce6661",
-  "releaseNotes": "KEPA 통합런처 1.0.0 정식 배포\n\n- 업무 프로그램 통합 설치·업데이트·실행\n- 런처 자체 자동 업데이트\n- Stable/Beta 채널 지원\n- 프로그램 파일과 사용자 데이터 분리\n- Google 인증정보 및 공용 규칙 유지",
+  "releaseNotes": "KEPA 통합런처 1.0.0 업데이트\n\n- 아이콘 변경",
   "mandatory": false,
-  "publishedAt": "2026-08-06T07:50:56.627513+00:00"
+  "publishedAt": "2026-08-10T01:16:01.760190+00:00"
 }
