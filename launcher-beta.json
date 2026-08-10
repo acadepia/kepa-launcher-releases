@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.0.0/KEPA_Launcher_1.0.0_beta_win-x64.zip",
-  "packageName": "KEPA_Launcher_1.0.0_beta_win-x64.zip",
-  "packageSize": 95135169,
-  "sha256": "84741e2ae3f03c89c97779a3c3a0b5bad21c9393609722af687a237a3f40e8de",
-  "releaseNotes": "KEPA 통합런처 1.0.0 업데이트\n\n- 아이콘 변경",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.0.1/KEPA_Launcher_1.0.1_beta_win-x64.zip",
+  "packageName": "KEPA_Launcher_1.0.1_beta_win-x64.zip",
+  "packageSize": 95135195,
+  "sha256": "31d50ca918fb55d63024e333e2011db120729c34c3f1eab379bc3df6c48917ee",
+  "releaseNotes": "KEPA 통합런처 1.0.1 업데이트\n\n- 아이콘 변경",
   "mandatory": false,
-  "publishedAt": "2026-08-10T01:15:27.017764+00:00"
+  "publishedAt": "2026-08-10T01:23:50.854240+00:00"
 }
