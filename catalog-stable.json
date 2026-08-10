@@ -26,6 +26,29 @@
       "publishedAt": "2026-07-31T07:20:47.959473+00:00"
     },
     {
+      "id": "cms-bulk-upload",
+      "name": "CMS 대량등록 자동화",
+      "description": "CMS 대량등록 작업파일 생성, 서지/교보 보조조회, rules 최신화, 파일명 정리 및 업로드 세트 분할 자동화",
+      "category": "CMS 자동화",
+      "version": "1.0.22",
+      "entrypoint": "CMS_Bulk_Upload.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cms-bulk-upload-v1.0.22/cms-bulk-upload_1.0.22_win-x64.zip",
+      "packageName": "cms-bulk-upload_1.0.22_win-x64.zip",
+      "packageSize": 384974062,
+      "sha256": "7a5e3d0b74fe573ef5a663c350616f878ba104808e30fd82c9b1f136f77b2aad",
+      "releaseNotes": "CMS 대량등록 자동화 1.0.22 업데이트\n\n- 기존 프로그램 배포",
+      "mandatory": false,
+      "order": 30,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-08-10T02:18:58.468273+00:00"
+    },
+    {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
       "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
@@ -49,5 +72,5 @@
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
     }
   ],
-  "generatedAt": "2026-07-31T07:20:47.959500+00:00"
+  "generatedAt": "2026-08-10T02:18:58.468273+00:00"
 }
