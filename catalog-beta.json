@@ -51,15 +51,15 @@
     {
       "id": "distribution-checker",
       "name": "도서 유통 확인",
-      "description": "Google Sheet 현황과 교보·예스24·알라딘·리디 최신 등록현황을 ISBN으로 대조하여 실제 상품화 완료 여부를 확인합니다.",
+      "description": "교보·예스24·알라딘·리디 최신 서지파일을 Google Sheet에 일괄 최신화하고 실제 상품화 완료 여부를 확인합니다.",
       "category": "유통 검수",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.0.0/distribution-checker_1.0.0_win-x64.zip",
-      "packageName": "distribution-checker_1.0.0_win-x64.zip",
-      "packageSize": 35710002,
-      "sha256": "8591df311122e218dc42a7de61bf67bdc2644d763608a065db00e123273b1133",
-      "releaseNotes": "도서 유통 확인 1.0.0 업데이트\n\n- 도서 유통 확인 기능 추가",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.1.0/distribution-checker_1.1.0_win-x64.zip",
+      "packageName": "distribution-checker_1.1.0_win-x64.zip",
+      "packageSize": 36494187,
+      "sha256": "73f413b2335b693f5961a8c69aa4b6a8c319f90acffd3c7d951aac2ab62f8de1",
+      "releaseNotes": "도서 유통 확인 1.1.0 업데이트\n\n- 도서 유통 확인 1.1 업데이트\n- 유통사 목록 업로드 시 구글시트를 최신화\n- 구글 최신화 필요 없음.",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-12T04:59:46.949605+00:00"
+      "publishedAt": "2026-08-12T06:56:26.461837+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-12T04:59:46.949605+00:00"
+  "generatedAt": "2026-08-12T06:56:26.461837+00:00"
 }
