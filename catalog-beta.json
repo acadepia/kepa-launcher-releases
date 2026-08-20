@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-20T07:36:47.847270+00:00"
+      "publishedAt": "2026-08-20T07:39:10.677402+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-20T07:36:47.847270+00:00"
+  "generatedAt": "2026-08-20T07:39:10.677402+00:00"
 }
