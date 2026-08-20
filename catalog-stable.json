@@ -49,6 +49,29 @@
       "publishedAt": "2026-08-10T02:18:58.468273+00:00"
     },
     {
+      "id": "distribution-checker",
+      "name": "도서 유통 확인",
+      "description": "교보·예스24·알라딘·리디 서지를 관리하고 상품화·정가·출판사명을 검수하며 최근 검수결과 재열기와 화면 필터 기준 Excel 내보내기를 지원합니다.",
+      "category": "유통 검수",
+      "version": "1.4.2",
+      "entrypoint": "distribution_checker.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.4.2/distribution-checker_1.4.2_win-x64.zip",
+      "packageName": "distribution-checker_1.4.2_win-x64.zip",
+      "packageSize": 37396179,
+      "sha256": "c5e724870528be2e565a8f7439506883927d1f84ee7fd2b8197f5ca19aa673f9",
+      "releaseNotes": "도서 유통 확인 1.4.2 업데이트\n\n- 유통 확인 프로그램 배포",
+      "mandatory": false,
+      "order": 30,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-08-20T08:30:14.066421+00:00"
+    },
+    {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
       "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
@@ -72,5 +95,5 @@
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
     }
   ],
-  "generatedAt": "2026-08-11T06:28:06.125900+00:00"
+  "generatedAt": "2026-08-20T08:30:14.066421+00:00"
 }
