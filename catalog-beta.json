@@ -53,13 +53,13 @@
       "name": "도서 유통 확인",
       "description": "교보·예스24·알라딘·리디 서지를 관리하고 상품화·정가·출판사명을 검수하며 최근 검수결과 재열기와 화면 필터 기준 Excel 내보내기를 지원합니다.",
       "category": "유통 검수",
-      "version": "1.4.1",
+      "version": "1.4.2",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.4.1/distribution-checker_1.3.2_win-x64.zip",
-      "packageName": "distribution-checker_1.3.2_win-x64.zip",
-      "packageSize": 37395628,
-      "sha256": "fa4963bd0da56295ce0652f9419eafe18d4759a3348e3c2803bb5c1f9c5915ce",
-      "releaseNotes": "도서 유통 확인 1.4.1 업데이트\n\n- 테스트 후 수정",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.4.2/distribution-checker_1.4.2_win-x64.zip",
+      "packageName": "distribution-checker_1.4.2_win-x64.zip",
+      "packageSize": 37396179,
+      "sha256": "c5e724870528be2e565a8f7439506883927d1f84ee7fd2b8197f5ca19aa673f9",
+      "releaseNotes": "도서 유통 확인 1.4.2 업데이트\n\n- 버전 이슈 해결",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-20T07:42:49.587693+00:00"
+      "publishedAt": "2026-08-20T07:56:25.757439+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-20T07:42:49.587693+00:00"
+  "generatedAt": "2026-08-20T07:56:25.758458+00:00"
 }
