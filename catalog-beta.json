@@ -51,15 +51,15 @@
     {
       "id": "distribution-checker",
       "name": "도서 유통 확인",
-      "description": "교보·예스24·알라딘·리디 최신 서지파일을 드래그앤드롭으로 자동판별·Google Sheet 최신화하고 실제 상품화 완료 여부를 확인합니다.",
+      "description": "교보·예스24·알라딘·리디 서지를 고유번호 기준 신규 추가/안전한 전체 교체하고 상품화·정가·출판사명을 검수합니다.",
       "category": "유통 검수",
-      "version": "1.2.0",
+      "version": "1.4.0",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.2.0/distribution-checker_1.2.0_win-x64.zip",
-      "packageName": "distribution-checker_1.2.0_win-x64.zip",
-      "packageSize": 37322814,
-      "sha256": "11013d9e9619ffebc8c9270b1edc712b45b339c6d62de508d7c2b83b434c0955",
-      "releaseNotes": "도서 유통 확인 1.2.0 업데이트\n\n- 1.2 업데이트",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.4.0/distribution-checker_1.3.0_win-x64.zip",
+      "packageName": "distribution-checker_1.3.0_win-x64.zip",
+      "packageSize": 37391989,
+      "sha256": "452d77570c2f19c209110b3d2bdf347607b3be704f97a55c2abb9daf986eb3ae",
+      "releaseNotes": "도서 유통 확인 1.4.0 업데이트\n\n- 해정님 피드백 반영분",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-12T08:36:57.146488+00:00"
+      "publishedAt": "2026-08-20T06:35:13.935688+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-12T08:36:57.146488+00:00"
+  "generatedAt": "2026-08-20T06:35:13.935688+00:00"
 }
