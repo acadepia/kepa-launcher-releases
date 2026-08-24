@@ -51,15 +51,15 @@
     {
       "id": "distribution-checker",
       "name": "도서 유통 확인",
-      "description": "교보·예스24·알라딘·리디 유통 검수와 Daum SMTP 안내메일 발송을 지원하며 최근 메일결과 재열기, 판매페이지 링크 수동 검수/보정, 현재 선택 브랜드 결과의 테스트 메일 발송을 지원합니다.",
+      "description": "교보·예스24·알라딘·리디 유통 검수와 Daum 안내메일 발송을 지원합니다. 선택한 여러 브랜드 테스트 메일, SMTP 발송확인필요 처리, 링크/브랜드 검수 기능을 포함합니다.",
       "category": "유통 검수",
-      "version": "1.5.2",
+      "version": "1.5.6",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.5.2/distribution-checker_1.5.2_win-x64.zip",
-      "packageName": "distribution-checker_1.5.2_win-x64.zip",
-      "packageSize": 37835682,
-      "sha256": "ef68b798848fb456d2bbce66c4bc715eb19f462fd0144bfed668d2777833d775",
-      "releaseNotes": "도서 유통 확인 1.5.2 업데이트\n\n- 테스트 메일링 추가",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.5.6/distribution-checker_1.5.6_win-x64.zip",
+      "packageName": "distribution-checker_1.5.6_win-x64.zip",
+      "packageSize": 37842323,
+      "sha256": "418b03b0bcd3ddb8c3944de2a46e0fd4f8c2afb6d537f4641f9641f5c79169ed",
+      "releaseNotes": "도서 유통 확인 1.5.6 업데이트\n\n- 테스트 메일링 + 버튼 수정",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-24T01:40:04.546013+00:00"
+      "publishedAt": "2026-08-24T06:50:49.517868+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-24T01:40:04.546013+00:00"
+  "generatedAt": "2026-08-24T06:50:49.517868+00:00"
 }
