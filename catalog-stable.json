@@ -51,15 +51,15 @@
     {
       "id": "distribution-checker",
       "name": "도서 유통 확인",
-      "description": "교보·예스24·알라딘·리디 서지를 관리하고 상품화·정가·출판사명을 검수하며 최근 검수결과 재열기와 화면 필터 기준 Excel 내보내기를 지원합니다.",
+      "description": "교보·예스24·알라딘·리디 유통 검수와 Daum 안내메일 발송을 지원합니다. 교보/예스24/알라딘의 전자책·오디오북·ISSN 식별값을 함께 확인하고, 예스24는 진행상태 완료+판매상태 판매+상품번호 발급을 모두 충족해야 유통완료로 판정합니다.",
       "category": "유통 검수",
-      "version": "1.4.2",
+      "version": "1.5.9",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.4.2/distribution-checker_1.4.2_win-x64.zip",
-      "packageName": "distribution-checker_1.4.2_win-x64.zip",
-      "packageSize": 37396179,
-      "sha256": "c5e724870528be2e565a8f7439506883927d1f84ee7fd2b8197f5ca19aa673f9",
-      "releaseNotes": "도서 유통 확인 1.4.2 업데이트\n\n- 유통 확인 프로그램 배포",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.5.9/distribution-checker_1.5.9_win-x64.zip",
+      "packageName": "distribution-checker_1.5.9_win-x64.zip",
+      "packageSize": 37858480,
+      "sha256": "6bc2dd8fbb20e2d5c701b79363a2706e3e4052027e456703fdc501bffbd96162",
+      "releaseNotes": "도서 유통 확인 1.5.9 업데이트\n\n- 메일링 추가/오디오북, ISSN 유통확인 기능 추가",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -69,7 +69,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-20T08:30:14.066421+00:00"
+      "publishedAt": "2026-08-25T02:17:28.733869+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -95,5 +95,5 @@
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
     }
   ],
-  "generatedAt": "2026-08-20T08:30:14.066421+00:00"
+  "generatedAt": "2026-08-25T02:17:28.733869+00:00"
 }
