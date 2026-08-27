@@ -5,16 +5,16 @@
     {
       "id": "file-classifier",
       "name": "파일 분류",
-      "description": "대용량 파일 인덱스 캐시·재개 가능한 고속 복사, 작업단위 로그와 검수/수정 팝업을 포함한 정기 신간 및 일반 파일 분류 도구입니다.",
+      "description": "정기 신간 분류와 Excel 목록 기반 일반 파일 모으기/출판사·브랜드·카테고리별 분류를 지원하며 대용량 인덱스·검수·로그·재개 복사를 제공합니다.",
       "category": "파일 도구",
       "section": "daily",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "entrypoint": "file_classifier.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/file-classifier-v1.2.0/file-classifier_1.2.0_win-x64.zip",
-      "packageName": "file-classifier_1.2.0_win-x64.zip",
-      "packageSize": 37595374,
-      "sha256": "fefc119c9f24f5436d9661f0c60ee9820919e5b7d99cb838c32ecf7cb41047e0",
-      "releaseNotes": "파일 분류 1.2.0 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/file-classifier-v1.2.1/file-classifier_1.2.1_win-x64.zip",
+      "packageName": "file-classifier_1.2.1_win-x64.zip",
+      "packageSize": 37596391,
+      "sha256": "50cb645f56692c1ccd5f93cd425fb6446214df387f502c864ae5c184dd8d3b5d",
+      "releaseNotes": "파일 분류 1.2.1 업데이트\n\n- 모으기 수정",
       "mandatory": false,
       "order": 10,
       "healthCheckArgs": [
@@ -24,7 +24,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-27T08:24:23.736372+00:00"
+      "publishedAt": "2026-08-27T08:51:00.886204+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -119,5 +119,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-27T08:24:23.736372+00:00"
+  "generatedAt": "2026-08-27T08:51:00.886204+00:00"
 }
