@@ -5,16 +5,16 @@
     {
       "id": "file-classifier",
       "name": "파일 분류",
-      "description": "월 1·2차 신간리스트를 캠퍼스북·북큐브·그 외 B2B 제한사항에 맞춰 분류하고, 일상적인 확장자/키워드 기반 파일 분류도 지원합니다.",
+      "description": "대용량 파일 인덱스 캐시·재개 가능한 고속 복사, 작업단위 로그와 검수/수정 팝업을 포함한 정기 신간 및 일반 파일 분류 도구입니다.",
       "category": "파일 도구",
       "section": "daily",
-      "version": "1.0.0",
+      "version": "1.2.0",
       "entrypoint": "file_classifier.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/file-classifier-v1.0.0/file-classifier_1.0.0_win-x64.zip",
-      "packageName": "file-classifier_1.0.0_win-x64.zip",
-      "packageSize": 35825471,
-      "sha256": "f4491c5f69a6651e7ed0dea83bc3721ab57d23cb0f0d9b1cfe6c8f8cfea98949",
-      "releaseNotes": "파일 분류 1.0.0 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/file-classifier-v1.2.0/file-classifier_1.2.0_win-x64.zip",
+      "packageName": "file-classifier_1.2.0_win-x64.zip",
+      "packageSize": 37595374,
+      "sha256": "fefc119c9f24f5436d9661f0c60ee9820919e5b7d99cb838c32ecf7cb41047e0",
+      "releaseNotes": "파일 분류 1.2.0 업데이트\n\n-",
       "mandatory": false,
       "order": 10,
       "healthCheckArgs": [
@@ -24,7 +24,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-27T06:50:45.371448+00:00"
+      "publishedAt": "2026-08-27T08:22:45.004899+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -119,5 +119,5 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     }
   ],
-  "generatedAt": "2026-08-27T06:50:45.371448+00:00"
+  "generatedAt": "2026-08-27T08:22:45.004899+00:00"
 }
