@@ -3,6 +3,30 @@
   "channel": "stable",
   "applications": [
     {
+      "id": "file-classifier",
+      "name": "파일 분류",
+      "description": "정기 신간 및 Excel 목록 기반 일반 파일 분류를 지원하며, 모든 주요 파일·폴더 입력을 대형 드래그앤드롭 영역으로 제공하고 대용량 인덱스·검수·로그·재개 복사를 지원합니다.",
+      "category": "파일 도구",
+      "section": "daily",
+      "version": "1.2.3",
+      "entrypoint": "file_classifier.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/file-classifier-v1.2.3/file-classifier_1.2.3_win-x64.zip",
+      "packageName": "file-classifier_1.2.3_win-x64.zip",
+      "packageSize": 37601292,
+      "sha256": "1b98a5072d44a4acfc19d8a1868e04e5602fa674d48368e166b2357b5fb43944",
+      "releaseNotes": "파일 분류 1.2.3 업데이트\n\n- 정기 신간 작업 / 별도 파일 분류or파일 모으기 기능",
+      "mandatory": false,
+      "order": 10,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-08-28T01:23:12.485401+00:00"
+    },
+    {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
       "description": "CMS 서지 엑셀을 예스24·밀리의서재·알라딘·교보문고·리디북스 대량등록 양식으로 변환하고 Google Sheet의 공용 규칙을 최신화합니다.",
@@ -95,5 +119,5 @@
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
     }
   ],
-  "generatedAt": "2026-08-27T02:28:25.076705+00:00"
+  "generatedAt": "2026-08-28T01:23:12.485401+00:00"
 }
