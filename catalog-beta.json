@@ -98,16 +98,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "CMS 재료와 원본 파일을 검수한 뒤 유통사별 대량등록 Excel과 실제 업로드 파일을 생성합니다.",
+      "description": "Google 자동 최신화, 보류 파일관리, 오디오북 ZIP 검수와 일괄 최종변환을 지원하는 유통사 대량등록기입니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.1.0",
+      "version": "2.2.1",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.1.0/cp-bulk-upload_2.1.0_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.1.0_win-x64.zip",
-      "packageSize": 37640099,
-      "sha256": "3564ced52a157215526bfa69e23fc6ee2e6b5ca5cd3956c9b967de7f068e8f14",
-      "releaseNotes": "유통사 대량등록기 2.1.0 업데이트\n\n- 재설계",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.2.1/cp-bulk-upload_2.2.1_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.2.1_win-x64.zip",
+      "packageSize": 37672901,
+      "sha256": "dcd8e3d9e1e2699184e90357e8dd55cbcc1c02e70057dd34df4ac91267b8ef97",
+      "releaseNotes": "유통사 대량등록기 2.2.1 업데이트\n\n- 피드백 1",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-08-31T05:01:38.938666+00:00"
+      "publishedAt": "2026-08-31T07:26:52.600851+00:00"
     }
   ],
-  "generatedAt": "2026-08-31T05:01:38.938666+00:00"
+  "generatedAt": "2026-08-31T07:26:52.600851+00:00"
 }
