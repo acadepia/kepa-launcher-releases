@@ -27,29 +27,6 @@
       "publishedAt": "2026-08-28T01:23:12.485401+00:00"
     },
     {
-      "id": "cp-bulk-upload",
-      "name": "유통사 대량등록기",
-      "description": "CMS 서지 엑셀을 예스24·밀리의서재·알라딘·교보문고·리디북스 대량등록 양식으로 변환하고 Google Sheet의 공용 규칙을 최신화합니다.",
-      "category": "유통사 등록",
-      "version": "1.9.4",
-      "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v1.9.4/cp-bulk-upload_1.9.4_win-x64.zip",
-      "packageName": "cp-bulk-upload_1.9.4_win-x64.zip",
-      "packageSize": 36775376,
-      "sha256": "07b4db42b1f3c398edec5bab783d12f65dc37a704fe9e92e6b4906ffa701f493",
-      "releaseNotes": "유통사 대량등록기 1.9.4 업데이트\n\n- 교보 B2B 구독 가능 출판사 중 선별인 경우 항목에 N으로 표기\n- 구글시트 참조 시 열추가에 관련 없이 적용되도록 업데이트",
-      "mandatory": false,
-      "order": 20,
-      "healthCheckArgs": [
-        "--health-check"
-      ],
-      "versionArgs": [
-        "--version"
-      ],
-      "dataPolicy": "local-only",
-      "publishedAt": "2026-08-11T06:28:06.125900+00:00"
-    },
-    {
       "id": "cms-bulk-upload",
       "name": "CMS 대량등록 자동화",
       "description": "CMS 대량등록 작업파일 생성, 서지/교보 보조조회, rules 최신화, 파일명 정리 및 업로드 세트 분할 자동화",
@@ -117,7 +94,31 @@
       ],
       "dataPolicy": "local-only",
       "publishedAt": "2026-07-31T00:34:30.408250+00:00"
+    },
+    {
+      "id": "cp-bulk-upload",
+      "name": "유통사 대량등록기",
+      "description": "CMS ISBN 기준 Google 보류 확인, 보류 해제/등록대기 관리, 오디오북 제외, 경량 조회를 적용한 유통사 대량등록기입니다.",
+      "category": "유통사 등록",
+      "section": "main",
+      "version": "2.3.5",
+      "entrypoint": "cp_bulk_upload.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.5/cp-bulk-upload_2.3.5_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.5_win-x64.zip",
+      "packageSize": 37818567,
+      "sha256": "9714d4e6c09e49b106014b1e98dad5d9a8bf9df8367030fb60327c254cf05616",
+      "releaseNotes": "유통사 대량등록기 2.3.5 업데이트\n\n- 유통사 대량등록 부분 보류 기능 추가 / 유통사별 파일 분류 추가 / 데일리 4개사 통합기능 추가\n- 구독 가능 리스트 엑셀 모양 변경 / 유통사별 식별자 추가, 판매상태 추가",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-09-02T04:02:30.905503+00:00"
     }
   ],
-  "generatedAt": "2026-08-28T01:23:12.485401+00:00"
+  "generatedAt": "2026-09-02T04:02:30.905503+00:00"
 }
