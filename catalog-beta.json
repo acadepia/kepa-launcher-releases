@@ -106,8 +106,8 @@
       "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.4/cp-bulk-upload_2.3.4_win-x64.zip",
       "packageName": "cp-bulk-upload_2.3.4_win-x64.zip",
       "packageSize": 37818471,
-      "sha256": "6886ed8e04e38b95cda471aa91f245b833f4e5177453f7143ff910c52e614c2e",
-      "releaseNotes": "유통사 대량등록기 2.3.4 업데이트\n\n- 피드백 6",
+      "sha256": "f2a3e2ac42deb4b4179ed5a6889a57ab30e96fd7c421aa933340d874a0ea857d",
+      "releaseNotes": "유통사 대량등록기 2.3.4 업데이트\n\n- 피드백 7",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-02T02:16:21.874666+00:00"
+      "publishedAt": "2026-09-02T03:38:28.842327+00:00"
     }
   ],
-  "generatedAt": "2026-09-02T02:16:21.874666+00:00"
+  "generatedAt": "2026-09-02T03:38:28.842327+00:00"
 }
