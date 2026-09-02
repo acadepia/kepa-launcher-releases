@@ -101,13 +101,13 @@
       "description": "CMS ISBN 기준 Google 보류 확인, 보류 해제/등록대기 관리, 오디오북 제외, 경량 조회를 적용한 유통사 대량등록기입니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.3/cp-bulk-upload_2.3.3_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.3_win-x64.zip",
-      "packageSize": 37816803,
-      "sha256": "2b0cc84920238244859630e96c9123337a2ebac3b1034a1aa2a10edbcc780cb3",
-      "releaseNotes": "유통사 대량등록기 2.3.3 업데이트\n\n- 피드백 5",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.4/cp-bulk-upload_2.3.4_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.4_win-x64.zip",
+      "packageSize": 37818471,
+      "sha256": "6886ed8e04e38b95cda471aa91f245b833f4e5177453f7143ff910c52e614c2e",
+      "releaseNotes": "유통사 대량등록기 2.3.4 업데이트\n\n- 피드백 6",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-02T00:54:05.151755+00:00"
+      "publishedAt": "2026-09-02T02:16:21.874666+00:00"
     }
   ],
-  "generatedAt": "2026-09-02T00:54:05.151755+00:00"
+  "generatedAt": "2026-09-02T02:16:21.874666+00:00"
 }
