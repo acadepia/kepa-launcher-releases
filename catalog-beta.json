@@ -98,16 +98,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "Stable v2.3.5 기반. 빠른 원본정리 TMP 안전성/자동복구, 보류관리 상태 재확인·수동 제거, 기존 PNG→JPG/구독/최종패키지 기능을 반영한 버전입니다.",
+      "description": "Stable v2.3.5 기반. 업로드용 처리 3단계(Excel+원본 / Excel만 / Excel+원본+이동), 원본정리 복구, TMP 안전성, 보류관리, PNG→JPG/구독 기능을 반영한 버전입니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.9",
+      "version": "2.3.10",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.9/cp-bulk-upload_2.3.9_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.9_win-x64.zip",
-      "packageSize": 44265891,
-      "sha256": "43ab1def26b04d2adca9a24ae8b138d6500fdacb6b20d5d56c66e04774d8bedd",
-      "releaseNotes": "유통사 대량등록기 2.3.9 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.10/cp-bulk-upload_2.3.10_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.10_win-x64.zip",
+      "packageSize": 44268666,
+      "sha256": "bcc0a32d48fbb9e77b11eb54fe30c941e03301e1125266d997dabe01bf76bd5d",
+      "releaseNotes": "유통사 대량등록기 2.3.10 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-04T00:44:02.152527+00:00"
+      "publishedAt": "2026-09-04T01:06:51.001779+00:00"
     }
   ],
-  "generatedAt": "2026-09-04T00:44:02.152527+00:00"
+  "generatedAt": "2026-09-04T01:06:51.001779+00:00"
 }
