@@ -98,16 +98,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "CMS ISBN 기준 Google 보류 확인, 보류 해제/등록대기 관리, 오디오북 제외, 경량 조회를 적용한 유통사 대량등록기입니다.",
+      "description": "Stable v2.3.5 기반. 업로드용 처리 3단계(Excel+원본 / Excel만 / Excel+원본+이동), 원본정리 복구, TMP 안전성, 보류관리, PNG→JPG/구독 기능을 반영한 버전입니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.5",
+      "version": "2.3.10",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.5/cp-bulk-upload_2.3.5_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.5_win-x64.zip",
-      "packageSize": 37818567,
-      "sha256": "9714d4e6c09e49b106014b1e98dad5d9a8bf9df8367030fb60327c254cf05616",
-      "releaseNotes": "유통사 대량등록기 2.3.5 업데이트\n\n- 유통사 대량등록 부분 보류 기능 추가 / 유통사별 파일 분류 추가 / 데일리 4개사 통합기능 추가\n- 구독 가능 리스트 엑셀 모양 변경 / 유통사별 식별자 추가, 판매상태 추가",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.10/cp-bulk-upload_2.3.10_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.10_win-x64.zip",
+      "packageSize": 44268666,
+      "sha256": "bcc0a32d48fbb9e77b11eb54fe30c941e03301e1125266d997dabe01bf76bd5d",
+      "releaseNotes": "유통사 대량등록기 2.3.10 업데이트\n\n- 실무자 피드백 반영",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-02T04:02:30.905503+00:00"
+      "publishedAt": "2026-09-04T01:08:45.819985+00:00"
     }
   ],
-  "generatedAt": "2026-09-02T04:02:30.905503+00:00"
+  "generatedAt": "2026-09-04T01:08:45.819985+00:00"
 }
