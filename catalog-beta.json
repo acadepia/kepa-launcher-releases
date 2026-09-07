@@ -98,16 +98,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "Stable v2.3.5 기반. v2.3.12는 새 재료 입력 시 이전 current_job 누출 차단, CMS 입력 fingerprint 검증, 사전점검 실패 로그/단계 표시, 실패 후 늦은 진행 이벤트 차단을 추가한 버전입니다.",
+      "description": "Stable v2.3.5 기반. v2.3.13은 Google OAuth 연결 관리(연결 폴더/credentials 넣기/token 삭제/재인증)와 invalid_grant 전용 안내를 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.12",
+      "version": "2.3.13",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.12/cp-bulk-upload_2.3.12_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.12_win-x64.zip",
-      "packageSize": 44285201,
-      "sha256": "93bf16ba64da81c760d349d77b5145aeb3fbec85f89dbc9a515cac5510680535",
-      "releaseNotes": "유통사 대량등록기 2.3.12 업데이트\n\n- 버그 수정",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.13/cp-bulk-upload_2.3.13_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.13_win-x64.zip",
+      "packageSize": 44289230,
+      "sha256": "4d8aafb9d906f5c02fe7bcbe2f838bcac9c3e1a5ebaf45ec8589fd057c0d4a77",
+      "releaseNotes": "유통사 대량등록기 2.3.13 업데이트\n\n- 버그 2",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-07T08:03:31.273969+00:00"
+      "publishedAt": "2026-09-07T08:32:24.175398+00:00"
     }
   ],
-  "generatedAt": "2026-09-07T08:03:31.273969+00:00"
+  "generatedAt": "2026-09-07T08:32:24.175398+00:00"
 }
