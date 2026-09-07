@@ -101,13 +101,13 @@
       "description": "Stable v2.3.5 기반. 업로드용 처리 3단계(Excel+원본 / Excel만 / Excel+원본+이동), 원본정리 복구, TMP 안전성, 보류관리, PNG→JPG/구독 기능을 반영한 버전입니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.10",
+      "version": "2.3.11",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.10/cp-bulk-upload_2.3.10_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.10_win-x64.zip",
-      "packageSize": 44268666,
-      "sha256": "bcc0a32d48fbb9e77b11eb54fe30c941e03301e1125266d997dabe01bf76bd5d",
-      "releaseNotes": "유통사 대량등록기 2.3.10 업데이트\n\n- 실무자 피드백 반영",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.11/cp-bulk-upload_2.3.11_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.11_win-x64.zip",
+      "packageSize": 44275931,
+      "sha256": "c3a876698fa9c33dfd52616d1bcc17a123388b314c6996d4f7e0a491d3eccac8",
+      "releaseNotes": "유통사 대량등록기 2.3.11 업데이트\n\n- 밀리의서재 파일명 매핑 수정",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-04T01:08:45.819985+00:00"
+      "publishedAt": "2026-09-07T01:13:50.249933+00:00"
     }
   ],
-  "generatedAt": "2026-09-04T01:08:45.819985+00:00"
+  "generatedAt": "2026-09-07T01:13:50.249933+00:00"
 }
