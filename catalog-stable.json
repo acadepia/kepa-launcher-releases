@@ -98,16 +98,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "Stable v2.3.5 기반. 업로드용 처리 3단계(Excel+원본 / Excel만 / Excel+원본+이동), 원본정리 복구, TMP 안전성, 보류관리, PNG→JPG/구독 기능을 반영한 버전입니다.",
+      "description": "Stable v2.3.5 기반. v2.3.13은 Google OAuth 연결 관리(연결 폴더/credentials 넣기/token 삭제/재인증)와 invalid_grant 전용 안내를 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.11",
+      "version": "2.3.13",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.11/cp-bulk-upload_2.3.11_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.11_win-x64.zip",
-      "packageSize": 44275931,
-      "sha256": "c3a876698fa9c33dfd52616d1bcc17a123388b314c6996d4f7e0a491d3eccac8",
-      "releaseNotes": "유통사 대량등록기 2.3.11 업데이트\n\n- 밀리의서재 파일명 매핑 수정",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.13/cp-bulk-upload_2.3.13_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.13_win-x64.zip",
+      "packageSize": 44289230,
+      "sha256": "4d8aafb9d906f5c02fe7bcbe2f838bcac9c3e1a5ebaf45ec8589fd057c0d4a77",
+      "releaseNotes": "유통사 대량등록기 2.3.13 업데이트\n\n- 버그 수정(구글 최신화 폴더 추가+신규 작업 시 새로운 작업으로 취급)",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -117,8 +117,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-07T01:13:50.249933+00:00"
+      "publishedAt": "2026-09-07T08:44:54.570922+00:00"
     }
   ],
-  "generatedAt": "2026-09-07T01:13:50.249933+00:00"
+  "generatedAt": "2026-09-07T08:44:54.570922+00:00"
 }
