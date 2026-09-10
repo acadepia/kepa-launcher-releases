@@ -149,13 +149,13 @@
       "description": "출판사 수정요청을 기준으로 유통사 파일교체·판매중지·서지수정 메일과 담당자 직접작업 노티를 관리합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.1/vendor-maintenance_0.1.1_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.1_win-x64.zip",
-      "packageSize": 36372176,
-      "sha256": "0b52c6d7931ffaf9f47c925c193dfb9712ab11ac97b8e9f2f3cb12868d2d82de",
-      "releaseNotes": "유통사 수정·판매중지 0.1.1 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.2/vendor-maintenance_0.1.2_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.2_win-x64.zip",
+      "packageSize": 36388296,
+      "sha256": "f535d7dc178de2eb08b277e2ccb0a9bc542a8f4c80c230edcca26b184571284e",
+      "releaseNotes": "유통사 수정·판매중지 0.1.2 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-10T00:05:28.445656+00:00"
+      "publishedAt": "2026-09-10T07:10:34.379882+00:00"
     }
   ],
-  "generatedAt": "2026-09-10T06:26:17.918853+00:00"
+  "generatedAt": "2026-09-10T07:10:34.380890+00:00"
 }
