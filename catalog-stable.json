@@ -73,6 +73,30 @@
       "publishedAt": "2026-08-27T02:28:25.076705+00:00"
     },
     {
+      "id": "pdf-page-counter",
+      "name": "PDF 페이지 수 확인",
+      "description": "폴더 또는 PDF 파일을 대량으로 읽어 페이지 수를 확인하고 결과를 엑셀로 저장합니다.",
+      "category": "PDF 도구",
+      "section": "daily",
+      "version": "0.1.0",
+      "entrypoint": "pdf_page_counter.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/pdf-page-counter-v0.1.0/pdf-page-counter_0.1.0_win-x64.zip",
+      "packageName": "pdf-page-counter_0.1.0_win-x64.zip",
+      "packageSize": 12825859,
+      "sha256": "4b674d13464ce2ab317fce3926f0b8238c494dc88fe4441ae1f08e0106d4c85c",
+      "releaseNotes": "PDF 페이지 수 확인 0.1.0 업데이트\n\n- PDF 페이지 수 추출",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-09-10T07:03:00.994749+00:00"
+    },
+    {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
       "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
@@ -120,5 +144,5 @@
       "publishedAt": "2026-09-07T08:44:54.570922+00:00"
     }
   ],
-  "generatedAt": "2026-09-07T08:44:54.570922+00:00"
+  "generatedAt": "2026-09-10T07:03:00.994749+00:00"
 }
