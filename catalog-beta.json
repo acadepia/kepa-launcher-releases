@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "파일교체도 첨부 연결 여부와 무관하게 메일 미리보기까지 진행하고, 첨부 누락을 미리보기에서 명확히 표시합니다.",
+      "description": "1~4단계 양방향 탐색을 지원하고, 이미 시트에 처리 체크된 파일교체 메일도 미리보기/테스트에서 확인할 수 있도록 보강했습니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.9/vendor-maintenance_0.1.9_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.9_win-x64.zip",
-      "packageSize": 37050797,
-      "sha256": "54e1fe90784a71d1581ed928e49c2d90372cd0fa5a7e4f79d8fc028bbf308469",
-      "releaseNotes": "유통사 수정·판매중지 0.1.9 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.10/vendor-maintenance_0.1.10_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.10_win-x64.zip",
+      "packageSize": 37055594,
+      "sha256": "77cf056031b2b4e04fe2e8d2de88cf4f560fbcd1626b3d02d1af269f75b6f2d8",
+      "releaseNotes": "유통사 수정·판매중지 0.1.10 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-11T07:10:29.092690+00:00"
+      "publishedAt": "2026-09-11T07:34:11.688874+00:00"
     }
   ],
-  "generatedAt": "2026-09-11T07:10:29.092690+00:00"
+  "generatedAt": "2026-09-11T07:34:11.688874+00:00"
 }
