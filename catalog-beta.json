@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "출판사 수정요청의 다중 작업을 브랜드 단위로 묶어 유통사 파일교체·판매중지·서지수정 메일과 Sheet 노티를 관리합니다.",
+      "description": "출판사 수정요청 다중 작업, 파일-도서 직접 연결, 시각적 메일 편집, 유통사별 수정 방식 설정을 지원합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.7/vendor-maintenance_0.1.7_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.7_win-x64.zip",
-      "packageSize": 37049602,
-      "sha256": "92babff35f19c477760de182e8d03b98f03db59ef1637baebe89de7a11d42899",
-      "releaseNotes": "유통사 수정·판매중지 0.1.7 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.8/vendor-maintenance_0.1.8_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.8_win-x64.zip",
+      "packageSize": 37053818,
+      "sha256": "d77090b1bb4fb767f25c3bd8c991ee8e857986872265a6c5ce944631fd9d953d",
+      "releaseNotes": "유통사 수정·판매중지 0.1.8 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-11T06:16:04.612428+00:00"
+      "publishedAt": "2026-09-11T07:00:32.893905+00:00"
     }
   ],
-  "generatedAt": "2026-09-11T06:16:04.612428+00:00"
+  "generatedAt": "2026-09-11T07:00:32.893905+00:00"
 }
