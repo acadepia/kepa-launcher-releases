@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "1~4단계 양방향 탐색을 지원하고, 이미 시트에 처리 체크된 파일교체 메일도 미리보기/테스트에서 확인할 수 있도록 보강했습니다.",
+      "description": "Daum 테스트 메일 전송 시 SMTP 연결 끊김을 자동 재연결하도록 보강하고, 1~4단계 이전/다음/최종 버튼을 화면 하단에 고정했습니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.10/vendor-maintenance_0.1.10_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.10_win-x64.zip",
-      "packageSize": 37055594,
-      "sha256": "77cf056031b2b4e04fe2e8d2de88cf4f560fbcd1626b3d02d1af269f75b6f2d8",
-      "releaseNotes": "유통사 수정·판매중지 0.1.10 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.11/vendor-maintenance_0.1.11_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.11_win-x64.zip",
+      "packageSize": 37055794,
+      "sha256": "ccb55e04e47d9180a8fb3e082f460ce81a61fd6811ab0501c0bd5d020a6a1c11",
+      "releaseNotes": "유통사 수정·판매중지 0.1.11 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-11T07:34:11.688874+00:00"
+      "publishedAt": "2026-09-11T07:55:21.148407+00:00"
     }
   ],
-  "generatedAt": "2026-09-11T07:34:11.688874+00:00"
+  "generatedAt": "2026-09-11T07:55:21.148407+00:00"
 }
