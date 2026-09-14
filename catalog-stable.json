@@ -142,7 +142,31 @@
       ],
       "dataPolicy": "local-only",
       "publishedAt": "2026-09-07T08:44:54.570922+00:00"
+    },
+    {
+      "id": "vendor-maintenance",
+      "name": "유통사 수정·판매중지",
+      "description": "파일교체 메일을 SMTP 자동발송에서 제외하고 Daum 임시보관함 초안 생성 → 사용자가 웹메일에서 직접 첨부·발송 → 발송완료 확인 후 Google Sheet 반영 방식으로 변경했습니다.",
+      "category": "유통사 등록",
+      "section": "main",
+      "version": "0.1.14",
+      "entrypoint": "vendor_maintenance.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.14/vendor-maintenance_0.1.14_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.14_win-x64.zip",
+      "packageSize": 37108442,
+      "sha256": "cf0263023eab94e5d5110a02908f882d2bf06dc4635e1e17960ea383d2918628",
+      "releaseNotes": "유통사 수정·판매중지 0.1.14 업데이트\n\n-",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-09-14T05:20:16.224773+00:00"
     }
   ],
-  "generatedAt": "2026-09-10T07:03:00.994749+00:00"
+  "generatedAt": "2026-09-14T05:20:16.224773+00:00"
 }
