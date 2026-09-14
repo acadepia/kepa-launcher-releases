@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "Stable hotfix: 3단계 테스트메일 복구, 파일교체 Daum 테스트초안/4단계 실제초안 분리, 다중선택·표지단독 파일교체 진행 보강, 템플릿 저장 버튼 고정, 최근 담당자 기억.",
+      "description": "그 외 유통사 파일교체 Daum 초안 수신자 수동입력 지원, 공통 등록현황의 저자·정가 표시 보강. 알라딘 공식 수정요청 양식 유지.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.15",
+      "version": "0.1.17",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.15/vendor-maintenance_0.1.15_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.15_win-x64.zip",
-      "packageSize": 37113258,
-      "sha256": "f7b2cc77019aa7e4dbffb88db0e3d77122fea73cc5e3a96a8db037021acfb27c",
-      "releaseNotes": "유통사 수정·판매중지 0.1.15 업데이트\n\n- 오류수정",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.17/vendor-maintenance_0.1.17_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.17_win-x64.zip",
+      "packageSize": 37121185,
+      "sha256": "216826750345e64394607d81d8067f192f3c0aabcae71880feb44a79ec72cad2",
+      "releaseNotes": "유통사 수정·판매중지 0.1.17 업데이트\n\n- 오류 수정",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-14T06:52:35.659743+00:00"
+      "publishedAt": "2026-09-14T08:32:04.932365+00:00"
     }
   ],
-  "generatedAt": "2026-09-14T06:52:35.659743+00:00"
+  "generatedAt": "2026-09-14T08:32:04.932365+00:00"
 }
