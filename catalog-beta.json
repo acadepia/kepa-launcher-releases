@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "Daum 테스트/실제 메일을 단일 SMTP 세션의 배치 발송으로 전환하고, 메시지 간 간격 및 연결 사전검사를 적용해 반복 연결로 인한 Server not connected 오류를 보강했습니다.",
+      "description": "파일교체 메일을 SMTP 자동발송에서 제외하고 Daum 임시보관함 초안 생성 → 사용자가 웹메일에서 직접 첨부·발송 → 발송완료 확인 후 Google Sheet 반영 방식으로 변경했습니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.12",
+      "version": "0.1.14",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.12/vendor-maintenance_0.1.12_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.12_win-x64.zip",
-      "packageSize": 37060329,
-      "sha256": "d00395168ab06409f1f7741b28dc4652b3b1823a69388ec349e7102ff4af1eae",
-      "releaseNotes": "유통사 수정·판매중지 0.1.12 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.14/vendor-maintenance_0.1.14_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.14_win-x64.zip",
+      "packageSize": 37108442,
+      "sha256": "cf0263023eab94e5d5110a02908f882d2bf06dc4635e1e17960ea383d2918628",
+      "releaseNotes": "유통사 수정·판매중지 0.1.14 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-11T08:21:11.737357+00:00"
+      "publishedAt": "2026-09-14T05:10:21.089209+00:00"
     }
   ],
-  "generatedAt": "2026-09-11T08:21:11.737357+00:00"
+  "generatedAt": "2026-09-14T05:10:21.089209+00:00"
 }
