@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "메일 제목/문구 치환변수, 사용자 편집형 표 구성, 출판사 수정요청 입력항목 구분 안내 추가. v0.1.17 Stable 기능 유지.",
+      "description": "템플릿 변수의 제목 삽입 오류 수정. 제목/표 위/표 아래 명시적 삽입 버튼 및 마지막 편집 위치 더블클릭 삽입 지원. v0.1.18 기능 유지.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.18",
+      "version": "0.1.19",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.18/vendor-maintenance_0.1.18_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.18_win-x64.zip",
-      "packageSize": 37149742,
-      "sha256": "8cb2590272b8291139fa28c7503e6c6e4fa9b013e35660317ede8744cf586cdc",
-      "releaseNotes": "유통사 수정·판매중지 0.1.18 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.19/vendor-maintenance_0.1.19_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.19_win-x64.zip",
+      "packageSize": 37150707,
+      "sha256": "742ab06703b22d11812451a21ba356d9a58c227a8eb59ff98e3ddbc2da5e0465",
+      "releaseNotes": "유통사 수정·판매중지 0.1.19 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-15T05:31:19.407079+00:00"
+      "publishedAt": "2026-09-15T05:46:55.492808+00:00"
     }
   ],
-  "generatedAt": "2026-09-15T05:31:19.407079+00:00"
+  "generatedAt": "2026-09-15T05:46:55.492808+00:00"
 }
