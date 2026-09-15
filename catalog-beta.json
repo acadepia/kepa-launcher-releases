@@ -146,16 +146,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "그 외 유통사 파일교체 Daum 초안 수신자 수동입력 지원, 공통 등록현황의 저자·정가 표시 보강. 알라딘 공식 수정요청 양식 유지.",
+      "description": "메일 제목/문구 치환변수, 사용자 편집형 표 구성, 출판사 수정요청 입력항목 구분 안내 추가. v0.1.17 Stable 기능 유지.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.17",
+      "version": "0.1.18",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.17/vendor-maintenance_0.1.17_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.17_win-x64.zip",
-      "packageSize": 37121185,
-      "sha256": "216826750345e64394607d81d8067f192f3c0aabcae71880feb44a79ec72cad2",
-      "releaseNotes": "유통사 수정·판매중지 0.1.17 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.18/vendor-maintenance_0.1.18_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.18_win-x64.zip",
+      "packageSize": 37149742,
+      "sha256": "8cb2590272b8291139fa28c7503e6c6e4fa9b013e35660317ede8744cf586cdc",
+      "releaseNotes": "유통사 수정·판매중지 0.1.18 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,8 +165,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-14T08:27:43.580222+00:00"
+      "publishedAt": "2026-09-15T05:31:19.407079+00:00"
     }
   ],
-  "generatedAt": "2026-09-14T08:27:43.580222+00:00"
+  "generatedAt": "2026-09-15T05:31:19.407079+00:00"
 }
