@@ -75,16 +75,16 @@
     {
       "id": "nlk_deposit_kepa",
       "name": "국중 일괄납본",
-      "description": "국중 미납본 리스트와 CMS 리스트를 매칭해 대량납본 엑셀과 원본파일 세트를 5GB 이하로 생성합니다.",
+      "description": "국중 납본리스트와 CMS 리스트를 매칭해 세트생성완료, CMS매칭_파일없음, CMS미등록 3대 상태 목록과 5GB 이하 납본 세트를 생성합니다.",
       "category": "납본 도구",
       "section": "daily",
-      "version": "1.3.9",
+      "version": "1.4.0",
       "entrypoint": "nlk_deposit.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/nlk_deposit_kepa-v1.3.9/nlk_deposit_1.3.9_win-x64.zip",
-      "packageName": "nlk_deposit_1.3.9_win-x64.zip",
-      "packageSize": 12242642,
-      "sha256": "df4d3d20389b8b19fd12a2e7bbd6a282a4c8b3a5fb7cf351afd49c7e70371b54",
-      "releaseNotes": "국중 일괄납본 1.3.9 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/nlk_deposit_kepa-v1.4.0/nlk_deposit_1.4.0_win-x64.zip",
+      "packageName": "nlk_deposit_1.4.0_win-x64.zip",
+      "packageSize": 12244654,
+      "sha256": "9cabd3c6ce8bfa16fdb9f0180a3148cdb286ab99cd0bbe1410dbeec4244ae099",
+      "releaseNotes": "국중 일괄납본 1.4.0 업데이트\n\n-",
       "mandatory": false,
       "order": 80,
       "healthCheckArgs": [
@@ -94,7 +94,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-15T08:33:19.427884+00:00"
+      "publishedAt": "2026-09-17T06:14:45.513545+00:00"
     },
     {
       "id": "pdf-page-counter",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-15T05:46:55.492808+00:00"
     }
   ],
-  "generatedAt": "2026-09-15T08:33:19.427884+00:00"
+  "generatedAt": "2026-09-17T06:14:45.513545+00:00"
 }
