@@ -170,16 +170,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "템플릿 변수의 제목 삽입 오류 수정. 제목/표 위/표 아래 명시적 삽입 버튼 및 마지막 편집 위치 더블클릭 삽입 지원. v0.1.18 기능 유지.",
+      "description": "3단계 메일 전체 편집(제목/수신자/인삿말/본문/표 셀/서명) 및 3·4단계 선택 메일 제외/제외취소 기능 추가. 알라딘 판매중지 사유·날짜·비고를 미리보기 단계에서 직접 입력 가능.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.19",
+      "version": "0.1.20",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.19/vendor-maintenance_0.1.19_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.19_win-x64.zip",
-      "packageSize": 37150707,
-      "sha256": "742ab06703b22d11812451a21ba356d9a58c227a8eb59ff98e3ddbc2da5e0465",
-      "releaseNotes": "유통사 수정·판매중지 0.1.19 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.20/vendor-maintenance_0.1.20_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.20_win-x64.zip",
+      "packageSize": 37170510,
+      "sha256": "fb2f453de66a9ea5be8c82d0d9e1686238cba9cad85a06614acbf67ef015a0b5",
+      "releaseNotes": "유통사 수정·판매중지 0.1.20 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -189,8 +189,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-15T05:46:55.492808+00:00"
+      "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-18T07:06:29.181151+00:00"
+  "generatedAt": "2026-09-18T08:05:32.656595+00:00"
 }
