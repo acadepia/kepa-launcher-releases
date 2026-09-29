@@ -146,16 +146,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "Stable v2.3.13 기반. v2.3.14는 2번 영역을 탭으로 분리하고, CMS+제한사항 브랜드 정확일치 기반 상시대여 가능 리스트(예스24/교보문고)를 추가합니다.",
+      "description": "Stable v2.3.14 기반. v2.3.15는 상시대여 가능 리스트에 예스24/교보문고 등록코드와 판매상태를 구독 가능 리스트와 동일한 경량 등록현황 조회 방식으로 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.14",
+      "version": "2.3.15",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.14/cp-bulk-upload_2.3.14_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.14_win-x64.zip",
-      "packageSize": 44329797,
-      "sha256": "b0aaaabe0d5adebfa85a33ffa590358995ce887843ccae94ffa6225e763558b7",
-      "releaseNotes": "유통사 대량등록기 2.3.14 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.15/cp-bulk-upload_2.3.15_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.15_win-x64.zip",
+      "packageSize": 44331805,
+      "sha256": "a9764ab3f335cbb8a03785462d2af96329ba0888086e4283b2602cf92e600960",
+      "releaseNotes": "유통사 대량등록기 2.3.15 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,7 +165,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-29T01:41:55.088221+00:00"
+      "publishedAt": "2026-09-29T04:55:38.908311+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-29T01:41:55.088221+00:00"
+  "generatedAt": "2026-09-29T04:55:38.908311+00:00"
 }
