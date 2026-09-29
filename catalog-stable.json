@@ -73,6 +73,30 @@
       "publishedAt": "2026-08-27T02:28:25.076705+00:00"
     },
     {
+      "id": "nlk_deposit_kepa",
+      "name": "국중 일괄납본",
+      "description": "국중 납본리스트와 CMS 리스트를 매칭해 세트생성완료, CMS매칭_파일없음, CMS미등록 3대 상태 목록과 50분 업로드 기준 이하 납본 세트를 생성합니다.",
+      "category": "납본 도구",
+      "section": "daily",
+      "version": "1.4.1",
+      "entrypoint": "nlk_deposit.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/nlk_deposit_kepa-v1.4.1/nlk_deposit_1.4.1_win-x64.zip",
+      "packageName": "nlk_deposit_1.4.1_win-x64.zip",
+      "packageSize": 12246579,
+      "sha256": "7d2431a56194fa305ba533170b3d9f2c1897ed58fef29e6c3bd75b0e14934912",
+      "releaseNotes": "국중 일괄납본 1.4.1 업데이트\n\n- 국중 대량납본 자동화",
+      "mandatory": false,
+      "order": 80,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-09-29T00:27:34.106981+00:00"
+    },
+    {
       "id": "pdf-page-counter",
       "name": "PDF 페이지 수 확인",
       "description": "폴더 또는 PDF 파일을 대량으로 읽어 페이지 수를 확인하고 결과를 엑셀로 저장합니다.",
@@ -168,5 +192,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-09-18T08:07:39.145900+00:00"
+  "generatedAt": "2026-09-29T00:27:34.106981+00:00"
 }
