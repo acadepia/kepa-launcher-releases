@@ -146,16 +146,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "Stable v2.3.5 기반. v2.3.13은 Google OAuth 연결 관리(연결 폴더/credentials 넣기/token 삭제/재인증)와 invalid_grant 전용 안내를 추가합니다.",
+      "description": "Stable v2.3.13 기반. v2.3.14는 2번 영역을 탭으로 분리하고, CMS+제한사항 브랜드 정확일치 기반 상시대여 가능 리스트(예스24/교보문고)를 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.13",
+      "version": "2.3.14",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.13/cp-bulk-upload_2.3.13_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.13_win-x64.zip",
-      "packageSize": 44289230,
-      "sha256": "4d8aafb9d906f5c02fe7bcbe2f838bcac9c3e1a5ebaf45ec8589fd057c0d4a77",
-      "releaseNotes": "유통사 대량등록기 2.3.13 업데이트\n\n- 버그 2",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.14/cp-bulk-upload_2.3.14_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.14_win-x64.zip",
+      "packageSize": 44329797,
+      "sha256": "b0aaaabe0d5adebfa85a33ffa590358995ce887843ccae94ffa6225e763558b7",
+      "releaseNotes": "유통사 대량등록기 2.3.14 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,7 +165,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-07T08:32:24.175398+00:00"
+      "publishedAt": "2026-09-29T01:41:55.088221+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-18T08:05:32.656595+00:00"
+  "generatedAt": "2026-09-29T01:41:55.088221+00:00"
 }
