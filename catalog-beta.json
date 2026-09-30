@@ -146,16 +146,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.17. 구독/상시대여 가능 리스트용 등록현황을 일 1회 Google에서 5,000행 단위로 SQLite 인덱스화하고 같은 날 재사용하여 반복 실행 속도와 실제 행 기반 진행도를 개선합니다.",
+      "description": "v2.3.18. 프로그램 시작 시 선택형 Google 시트 예열 팝업을 제공하고, 카테고리/제한사항/현황/주요 등록현황을 로컬 캐시에 선적재하여 기능 실행 시 반복 Google 조회를 제거합니다. 원형 진행도 팝업과 예열 완료 안내를 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.17",
+      "version": "2.3.18",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.17/cp-bulk-upload_2.3.17_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.17_win-x64.zip",
-      "packageSize": 44347340,
-      "sha256": "34616c38194f1c284c9d9e3f2492a2064d3f3a4ffd81488bdc3ac6affe904529",
-      "releaseNotes": "유통사 대량등록기 2.3.17 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.18/cp-bulk-upload_2.3.18_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.18_win-x64.zip",
+      "packageSize": 44365278,
+      "sha256": "79a6412526d585ed11f3216d2049b17c1f36e45f8d7d08e665382bf37e013b74",
+      "releaseNotes": "유통사 대량등록기 2.3.18 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,7 +165,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-29T07:53:35.442589+00:00"
+      "publishedAt": "2026-09-30T01:48:19.072611+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-29T07:53:35.442589+00:00"
+  "generatedAt": "2026-09-30T01:48:19.072611+00:00"
 }
