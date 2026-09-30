@@ -146,16 +146,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.18. 프로그램 시작 시 선택형 Google 시트 예열 팝업을 제공하고, 카테고리/제한사항/현황/주요 등록현황을 로컬 캐시에 선적재하여 기능 실행 시 반복 Google 조회를 제거합니다. 원형 진행도 팝업과 예열 완료 안내를 추가합니다.",
+      "description": "v2.3.19. 공통 Daum 메일링 기반, 담당자 추가·삭제, 눈에 보이는 텍스트 템플릿 편집, 밀리 등록현황 예열 및 밀리에 없는 책 출판사별 첨부메일 생성·검수·직접 발송 기능을 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.18",
+      "version": "2.3.20",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.18/cp-bulk-upload_2.3.18_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.18_win-x64.zip",
-      "packageSize": 44365278,
-      "sha256": "79a6412526d585ed11f3216d2049b17c1f36e45f8d7d08e665382bf37e013b74",
-      "releaseNotes": "유통사 대량등록기 2.3.18 업데이트\n\n- 구글 시트 읽는 시간 증가로 \"예열\" 시스템 도입. \n- 유통사 등록에 쓰이는 \"보류\" 기능은 실시간으로 업데이트 됨.\n- 프로그램 실행 후 예열한 뒤 사용. 속도 매우 향상됨.",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.20/cp-bulk-upload_2.3.20_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.20_win-x64.zip",
+      "packageSize": 44443207,
+      "sha256": "d764cf4c38140df4e284d8f0bdb6a5c3285cafa04c1694132ffbe46d03a7da28",
+      "releaseNotes": "유통사 대량등록기 2.3.20 업데이트\n\n- 밀리의서재 미등록 리스트+메일링 추가\n- 유통사 대량등록 (엑셀+원본+이동) 기능 이용 시 Winerror32 충돌 해결",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,7 +165,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-30T01:54:15.392166+00:00"
+      "publishedAt": "2026-09-30T07:42:04.597015+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-09-30T01:54:15.393169+00:00"
+  "generatedAt": "2026-09-30T07:42:04.597015+00:00"
 }
