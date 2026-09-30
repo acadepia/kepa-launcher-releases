@@ -146,16 +146,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.18. 프로그램 시작 시 선택형 Google 시트 예열 팝업을 제공하고, 카테고리/제한사항/현황/주요 등록현황을 로컬 캐시에 선적재하여 기능 실행 시 반복 Google 조회를 제거합니다. 원형 진행도 팝업과 예열 완료 안내를 추가합니다.",
+      "description": "v2.3.19. 공통 Daum 메일링 기반, 담당자 추가·삭제, 눈에 보이는 텍스트 템플릿 편집, 밀리 등록현황 예열 및 밀리에 없는 책 출판사별 첨부메일 생성·검수·직접 발송 기능을 추가합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.18",
+      "version": "2.3.19",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.18/cp-bulk-upload_2.3.18_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.18_win-x64.zip",
-      "packageSize": 44365278,
-      "sha256": "79a6412526d585ed11f3216d2049b17c1f36e45f8d7d08e665382bf37e013b74",
-      "releaseNotes": "유통사 대량등록기 2.3.18 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.19/cp-bulk-upload_2.3.19_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.19_win-x64.zip",
+      "packageSize": 44441280,
+      "sha256": "90cd25a8cd536943b9ef8d54b483c7348d442a4c89198eb9eea0144fb8921db8",
+      "releaseNotes": "유통사 대량등록기 2.3.19 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -165,7 +165,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-30T01:48:19.072611+00:00"
+      "publishedAt": "2026-09-30T07:00:15.304526+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -192,5 +192,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-30T01:48:19.072611+00:00"
+  "generatedAt": "2026-09-30T07:00:15.304526+00:00"
 }
