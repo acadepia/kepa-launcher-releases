@@ -97,6 +97,30 @@
       "publishedAt": "2026-09-18T07:06:29.181151+00:00"
     },
     {
+      "id": "cms-file-downloader",
+      "name": "CMS 파일 다운로드 자동화",
+      "description": "CMS에서 전자책 ISBN을 검색하여 표지 및 본문(원문)을 자동 다운로드하는 도구",
+      "category": "CMS 자동화",
+      "section": "daily",
+      "version": "0.1.1",
+      "entrypoint": "cms_downloader.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cms-file-downloader-v0.1.1/cms-file-downloader_0.1.1_win-x64.zip",
+      "packageName": "cms-file-downloader_0.1.1_win-x64.zip",
+      "packageSize": 52675343,
+      "sha256": "c3541d507c4c38a7d4d0859c22a8fc07428f604267c73566792627760ca93288",
+      "releaseNotes": "CMS 파일 다운로드 자동화 0.1.1 업데이트\n\n-",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-10-02T05:57:58.122300+00:00"
+    },
+    {
       "id": "pdf-page-counter",
       "name": "PDF 페이지 수 확인",
       "description": "폴더 또는 PDF 파일을 대량으로 읽어 페이지 수를 확인하고 결과를 엑셀로 저장합니다.",
@@ -192,5 +216,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-09-30T07:36:14.589231+00:00"
+  "generatedAt": "2026-10-02T05:57:58.122300+00:00"
 }
