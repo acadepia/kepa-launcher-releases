@@ -168,6 +168,30 @@
       "publishedAt": "2026-07-31T00:27:23.821205+00:00"
     },
     {
+      "id": "audiobook-bulk-upload",
+      "name": "오디오북 유통사 등록기",
+      "description": "CMS 서지와 ZIP 오디오 원본을 한 번 분석하고 서지 OpenAPI에서 낭독자를 자동 추출한 뒤 교보문고/알라딘 대량등록, 예스24 등록 준비, 북큐브 전달용 서지를 생성하는 Beta 버전입니다.",
+      "category": "유통사 등록",
+      "section": "main",
+      "version": "0.1.1",
+      "entrypoint": "audiobook_bulk_upload.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v0.1.1/audiobook-bulk-upload_0.1.1_win-x64.zip",
+      "packageName": "audiobook-bulk-upload_0.1.1_win-x64.zip",
+      "packageSize": 37843456,
+      "sha256": "3b721f4def174ae8e08817ea927d2a20ae7e36479293dbb3fffa7f67457b6fd1",
+      "releaseNotes": "오디오북 유통사 등록기 0.1.1 업데이트\n\n-",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-10-07T02:25:19.161386+00:00"
+    },
+    {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
       "description": "v2.3.19. 공통 Daum 메일링 기반, 담당자 추가·삭제, 눈에 보이는 텍스트 템플릿 편집, 밀리 등록현황 예열 및 밀리에 없는 책 출판사별 첨부메일 생성·검수·직접 발송 기능을 추가합니다.",
@@ -216,5 +240,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-07T00:46:09.840758+00:00"
+  "generatedAt": "2026-10-07T02:25:19.161386+00:00"
 }
