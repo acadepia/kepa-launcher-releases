@@ -102,13 +102,13 @@
       "description": "CMS에서 전자책 ISBN을 검색하여 표지 및 본문(원문)을 자동 다운로드하는 도구",
       "category": "CMS 자동화",
       "section": "daily",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "entrypoint": "cms_downloader.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cms-file-downloader-v1.0.0/cms-file-downloader_1.0.0_win-x64.zip",
-      "packageName": "cms-file-downloader_1.0.0_win-x64.zip",
-      "packageSize": 52690439,
-      "sha256": "89e282d3b9877b7223823880984ce4c91ba6dd784533219cd2396c5812d8e085",
-      "releaseNotes": "CMS 파일 다운로드 자동화 1.0.0 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cms-file-downloader-v1.0.1/cms-file-downloader_1.0.1_win-x64.zip",
+      "packageName": "cms-file-downloader_1.0.1_win-x64.zip",
+      "packageSize": 52696184,
+      "sha256": "b084f76c39281e036ed7f84237abc8245d485cd1b8b2f6160b91348b762e4d72",
+      "releaseNotes": "CMS 파일 다운로드 자동화 1.0.1 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -118,7 +118,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-07T00:05:41.639092+00:00"
+      "publishedAt": "2026-10-07T00:46:09.840758+00:00"
     },
     {
       "id": "pdf-page-counter",
@@ -216,5 +216,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-07T00:05:41.639092+00:00"
+  "generatedAt": "2026-10-07T00:46:09.840758+00:00"
 }
