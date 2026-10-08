@@ -170,16 +170,16 @@
     {
       "id": "audiobook-bulk-upload",
       "name": "오디오북 유통사 등록기",
-      "description": "CMS+ZIP 오디오북 분석 후 교보/알라딘/예스24/북큐브 등록자료 생성. v0.1.9: 북큐브 J13 등 32767자 초과 텍스트 검수 오류 수정 및 초과 원문 별도 보존.",
+      "description": "CMS+ZIP 오디오북 분석 후 교보/알라딘/예스24/북큐브 등록자료 생성. v0.1.10: 북큐브 J13 줄바꿈 CR→LF 저장/검증 불일치 수정(Windows OOXML 호환).",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "entrypoint": "audiobook_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v0.1.9/audiobook_bulk_upload_v0.1.9_win-x64.zip",
-      "packageName": "audiobook_bulk_upload_v0.1.9_win-x64.zip",
-      "packageSize": 37851404,
-      "sha256": "16cd6da36d1687621e44de554d196edf0e6ecd99a945c673b7a2fb2e94cfc797",
-      "releaseNotes": "오디오북 유통사 등록기 0.1.9 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v0.1.10/audiobook_bulk_upload_v0.1.10_win-x64.zip",
+      "packageName": "audiobook_bulk_upload_v0.1.10_win-x64.zip",
+      "packageSize": 37851556,
+      "sha256": "91126f24129efe2e68b3b80847229e7ccb19ef8eb7979ce564d4c7e3b968af41",
+      "releaseNotes": "오디오북 유통사 등록기 0.1.10 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -189,7 +189,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-08T04:43:44.779556+00:00"
+      "publishedAt": "2026-10-08T05:01:32.234013+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-08T04:43:44.779556+00:00"
+  "generatedAt": "2026-10-08T05:01:32.234013+00:00"
 }
