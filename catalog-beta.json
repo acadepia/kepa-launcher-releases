@@ -170,16 +170,16 @@
     {
       "id": "audiobook-bulk-upload",
       "name": "오디오북 유통사 등록기",
-      "description": "CMS+ZIP 오디오북 분석 후 교보/알라딘/예스24/북큐브 등록자료를 생성하며, 교보·알라딘 XLSX 구조 무손실 보존·낭독자 누락 표시를 포함한 Beta 버전입니다.",
+      "description": "CMS+ZIP 오디오북 분석 후 교보/알라딘/예스24/북큐브 등록자료를 생성합니다. v0.1.6: 북큐브 XLSX 스타일 참조 오류 방지.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "entrypoint": "audiobook_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v0.1.5/audiobook-bulk-upload_0.1.5_win-x64.zip",
-      "packageName": "audiobook-bulk-upload_0.1.5_win-x64.zip",
-      "packageSize": 37896764,
-      "sha256": "852974c1e7e536809fb8915dce03e7c66f2d728677225d7ec56273a0dfebc18c",
-      "releaseNotes": "오디오북 유통사 등록기 0.1.5 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v0.1.6/audiobook-bulk-upload_0.1.6_win-x64.zip",
+      "packageName": "audiobook-bulk-upload_0.1.6_win-x64.zip",
+      "packageSize": 37900460,
+      "sha256": "cc8a009d8d6bedf8b46bc357d0fff40d8af1e80c128f8989227a085bff4d5ba0",
+      "releaseNotes": "오디오북 유통사 등록기 0.1.6 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -189,7 +189,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-08T01:44:06.093835+00:00"
+      "publishedAt": "2026-10-08T02:16:53.795485+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-08T01:44:06.093835+00:00"
+  "generatedAt": "2026-10-08T02:16:53.795485+00:00"
 }
