@@ -194,16 +194,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.19. 공통 Daum 메일링 기반, 담당자 추가·삭제, 눈에 보이는 텍스트 템플릿 편집, 밀리 등록현황 예열 및 밀리에 없는 책 출판사별 첨부메일 생성·검수·직접 발송 기능을 추가합니다.",
+      "description": "v2.3.23 Beta: 유통사별 중복 ISBN 판매상태(교보 정상/리디 승인+공개) 우선 판정, 캐시 스키마 마이그레이션, 가능리스트 대량 누락 경고",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.20",
+      "version": "2.3.23",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.20/cp-bulk-upload_2.3.20_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.20_win-x64.zip",
-      "packageSize": 44443207,
-      "sha256": "d764cf4c38140df4e284d8f0bdb6a5c3285cafa04c1694132ffbe46d03a7da28",
-      "releaseNotes": "유통사 대량등록기 2.3.20 업데이트\n\n- 밀리의서재 미등록 리스트+메일링 추가\n- 유통사 대량등록 (엑셀+원본+이동) 기능 이용 시 Winerror32 충돌 해결",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.23/cp-bulk-upload_2.3.23_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.23_win-x64.zip",
+      "packageSize": 45172067,
+      "sha256": "29734dc6822f401e193d64e0603edfedd0e005a56407247e8ca9ff00fb2b0058",
+      "releaseNotes": "유통사 대량등록기 2.3.23 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -213,7 +213,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-30T07:42:04.597015+00:00"
+      "publishedAt": "2026-10-14T07:45:58.029937+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-10-14T04:25:47.989032+00:00"
+  "generatedAt": "2026-10-14T07:45:58.029937+00:00"
 }
