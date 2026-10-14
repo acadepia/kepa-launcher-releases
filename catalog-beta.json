@@ -194,16 +194,16 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.22 Beta: 구독/상시대여 제한사항 구형 캐시 재사용 방지(당일 Google 스냅샷 확인), 제외 사유 진단, 중복 ISBN 판매 우선 정책 유지.",
+      "description": "v2.3.23 Beta: 유통사별 중복 ISBN 판매상태(교보 정상/리디 승인+공개) 우선 판정, 캐시 스키마 마이그레이션, 가능리스트 대량 누락 경고",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.22",
+      "version": "2.3.23",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.22/cp-bulk-upload_2.3.22_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.22_win-x64.zip",
-      "packageSize": 45166970,
-      "sha256": "bb016ab437312c38a8ad34b713b3774bdb7d308f9950ec5b07e5dd72d0ec06dd",
-      "releaseNotes": "유통사 대량등록기 2.3.22 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.23/cp-bulk-upload_2.3.23_win-x64.zip",
+      "packageName": "cp-bulk-upload_2.3.23_win-x64.zip",
+      "packageSize": 45172067,
+      "sha256": "29734dc6822f401e193d64e0603edfedd0e005a56407247e8ca9ff00fb2b0058",
+      "releaseNotes": "유통사 대량등록기 2.3.23 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -213,7 +213,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-14T06:32:44.455105+00:00"
+      "publishedAt": "2026-10-14T07:28:59.887945+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-14T06:32:44.455105+00:00"
+  "generatedAt": "2026-10-14T07:28:59.887945+00:00"
 }
