@@ -170,16 +170,16 @@
     {
       "id": "audiobook-bulk-upload",
       "name": "오디오북 유통사 등록기",
-      "description": "v1.0.1 Beta: 실무 피드백(YES24 브랜드·도서분류, 교보 CP명, 카테고리 복사·붙여넣기, 알라딘 파일명 대조) 반영.",
+      "description": "v1.0.2 Beta: 알라딘 미리듣기 Y, 교보 카테고리 직접 입력, 예스24 부제 및 파일명 표준화 반영.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "entrypoint": "audiobook_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.1/audiobook_bulk_upload_v1.0.1_win-x64.zip",
-      "packageName": "audiobook_bulk_upload_v1.0.1_win-x64.zip",
-      "packageSize": 37862936,
-      "sha256": "7012af1f590e5c89d29382f32f4f5e43c9ea10bd6efe5e9133ea59da8e1fb04b",
-      "releaseNotes": "오디오북 유통사 등록기 1.0.1 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.2/audiobook_bulk_upload_v1.0.2_win-x64.zip",
+      "packageName": "audiobook_bulk_upload_v1.0.2_win-x64.zip",
+      "packageSize": 37864451,
+      "sha256": "f41797aba8525ad9e9728b5d26c56cafdf41bbad9385a69509eb4a9d5bbeffc1",
+      "releaseNotes": "오디오북 유통사 등록기 1.0.2 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -189,7 +189,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-13T08:23:45.511475+00:00"
+      "publishedAt": "2026-10-15T06:38:08.583359+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:05:32.656595+00:00"
     }
   ],
-  "generatedAt": "2026-10-14T07:28:59.887945+00:00"
+  "generatedAt": "2026-10-15T06:38:08.583359+00:00"
 }
