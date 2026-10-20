@@ -218,16 +218,16 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "알라딘 판매중지 조건부 참조 기능 추가: 알라딘 등록현황에서 도서가 확인되고 제한사항의 만권당 값이 정확히 가능인 경우, 메일 설정에 등록한 조건부 CC를 유통사 통합메일에 자동 추가.",
+      "description": "실제 Google Sheet에 격리된 가상 업무 시나리오를 자동 생성/정리하는 TEST MODE 추가. 12개 핵심·예외 상황, 990 테스트 ISBN, 자동 파일/서지수정값, 테스트 수신자 강제, 테스트 행에 한정한 최종 Sheet 반영을 지원.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.22",
+      "version": "0.1.23",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.22/vendor-maintenance_0.1.22_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.22_win-x64.zip",
-      "packageSize": 38121969,
-      "sha256": "5d197cad09cab1a0cfe21f7a25034be766403220e8418e2c9d8d19d5370af0ca",
-      "releaseNotes": "유통사 수정·판매중지 0.1.22 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.23/vendor-maintenance_0.1.23_win-x64.zip",
+      "packageName": "vendor-maintenance_0.1.23_win-x64.zip",
+      "packageSize": 38219669,
+      "sha256": "54ab961dbbff0c0a903c538360f1fdf85234500c056f79536841f24b147a3b74",
+      "releaseNotes": "유통사 수정·판매중지 0.1.23 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -237,8 +237,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-16T00:27:55.499295+00:00"
+      "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-10-16T00:27:55.499295+00:00"
+  "generatedAt": "2026-10-20T08:33:18.810030+00:00"
 }
