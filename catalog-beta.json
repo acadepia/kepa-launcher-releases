@@ -154,9 +154,9 @@
       "entrypoint": "MillieIndividualUploader.exe",
       "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.8/millie_individual_uploader_v0.1.8_win-x64.zip",
       "packageName": "millie_individual_uploader_v0.1.8_win-x64.zip",
-      "packageSize": 78130440,
-      "sha256": "db8010c13384c28170643394b7975d92029908bc84642142e3534eef65322ec6",
-      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.8 업데이트\n\n-",
+      "packageSize": 78130466,
+      "sha256": "643105b7c4378ab6fe584e143ec76c4af31e52e007297a6163597db735866ab7",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.8 업데이트\n\n- 11",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -166,7 +166,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-28T07:45:40.322509+00:00"
+      "publishedAt": "2026-10-28T07:48:28.482881+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-10-28T07:45:40.322509+00:00"
+  "generatedAt": "2026-10-28T07:48:28.482881+00:00"
 }
