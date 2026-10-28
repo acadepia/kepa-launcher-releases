@@ -150,13 +150,13 @@
       "description": "Excel 서지/파일 기반 밀리의서재 브라우저 개별 등록 (Beta)",
       "category": "CMS 자동화",
       "section": "daily",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "entrypoint": "MillieIndividualUploader.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.4/millie_individual_uploader_v0.1.4_win-x64.zip",
-      "packageName": "millie_individual_uploader_v0.1.4_win-x64.zip",
-      "packageSize": 78100791,
-      "sha256": "4b99963e3a6a7e443c522cc78447f82ceda3777ac9f07456f32ed6172c0c347e",
-      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.4 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.5/millie_individual_uploader_v0.1.5_win-x64.zip",
+      "packageName": "millie_individual_uploader_v0.1.5_win-x64.zip",
+      "packageSize": 78103363,
+      "sha256": "50e865bf90eadbfafac78bab1309a8a3ccc22985b97b6f5f3c3f091fa7945318",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.5 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -166,7 +166,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-28T06:01:23.715540+00:00"
+      "publishedAt": "2026-10-28T06:38:08.228647+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-10-28T06:01:23.715540+00:00"
+  "generatedAt": "2026-10-28T06:38:08.228647+00:00"
 }
