@@ -194,16 +194,16 @@
     {
       "id": "audiobook-bulk-upload",
       "name": "오디오북 유통사 등록기",
-      "description": "v1.0.2 Beta: 알라딘 미리듣기 Y, 교보 카테고리 직접 입력, 예스24 부제 및 파일명 표준화 반영.",
+      "description": "v1.0.3 Beta: CMS 오디오북 원본 ZIP과 단일 MP3 혼합 지원. 기존 유통사 등록 형식 유지.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "entrypoint": "audiobook_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.2/audiobook_bulk_upload_v1.0.2_win-x64.zip",
-      "packageName": "audiobook_bulk_upload_v1.0.2_win-x64.zip",
-      "packageSize": 37864451,
-      "sha256": "f41797aba8525ad9e9728b5d26c56cafdf41bbad9385a69509eb4a9d5bbeffc1",
-      "releaseNotes": "오디오북 유통사 등록기 1.0.2 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.3/audiobook_bulk_upload_v1.0.3_win-x64.zip",
+      "packageName": "audiobook_bulk_upload_v1.0.3_win-x64.zip",
+      "packageSize": 38606977,
+      "sha256": "fa3121d8fc6a357c309e6c7e3b9f83a6dc6c2f1e8202530ee11f09945702fdc7",
+      "releaseNotes": "오디오북 유통사 등록기 1.0.3 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -213,7 +213,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-15T06:38:08.583359+00:00"
+      "publishedAt": "2026-11-03T01:58:56.143025+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-10-28T07:48:28.482881+00:00"
+  "generatedAt": "2026-11-03T01:58:56.143025+00:00"
 }
