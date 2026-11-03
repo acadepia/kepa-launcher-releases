@@ -147,16 +147,16 @@
     {
       "id": "millie-individual-uploader",
       "name": "밀리의서재 개별 등록 자동화",
-      "description": "AG 대분류/AH 중분류 독립 매핑 + 현장 수동 보정 · KEPA Beta",
+      "description": "전자책 정가/출간일 입력 분리 및 이중 검증 · AG/AH 밀리 매핑 · KEPA Beta",
       "category": "CMS 자동화",
       "section": "daily",
-      "version": "0.1.9",
+      "version": "0.1.10",
       "entrypoint": "MillieIndividualUploader.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.9/millie_individual_uploader_v0.1.9_win-x64.zip",
-      "packageName": "millie_individual_uploader_v0.1.9_win-x64.zip",
-      "packageSize": 78135565,
-      "sha256": "bd520c83bf9f45a15054e09aec2864d199318a960d1242f37d462a5f4598adee",
-      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.9 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.10/millie_individual_uploader_v0.1.10_win-x64.zip",
+      "packageName": "millie_individual_uploader_v0.1.10_win-x64.zip",
+      "packageSize": 78138874,
+      "sha256": "e4b84e20797e0bc0a62320b506a74d7e82bc8d9818cf2858d9bcb3bcb22cf6b8",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.10 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -166,7 +166,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-03T06:13:16.458193+00:00"
+      "publishedAt": "2026-11-03T07:41:34.887416+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-11-03T06:13:16.458193+00:00"
+  "generatedAt": "2026-11-03T07:41:34.888428+00:00"
 }
