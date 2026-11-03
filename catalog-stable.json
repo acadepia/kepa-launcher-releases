@@ -170,16 +170,16 @@
     {
       "id": "audiobook-bulk-upload",
       "name": "오디오북 유통사 등록기",
-      "description": "v1.0.3 Beta: CMS 오디오북 원본 ZIP과 단일 MP3 혼합 지원. 기존 유통사 등록 형식 유지.",
+      "description": "v1.0.4 Beta: 단일 MP3/ZIP 음원 파일 복사·추출 검증 강화, 교보 실패 누락 방지 및 파일 감사 기록.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "entrypoint": "audiobook_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.3/audiobook_bulk_upload_v1.0.3_win-x64.zip",
-      "packageName": "audiobook_bulk_upload_v1.0.3_win-x64.zip",
-      "packageSize": 38606977,
-      "sha256": "fa3121d8fc6a357c309e6c7e3b9f83a6dc6c2f1e8202530ee11f09945702fdc7",
-      "releaseNotes": "오디오북 유통사 등록기 1.0.3 업데이트\n\n- mp3 파일 대응",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/audiobook-bulk-upload-v1.0.4/audiobook_bulk_upload_v1.0.4_win-x64.zip",
+      "packageName": "audiobook_bulk_upload_v1.0.4_win-x64.zip",
+      "packageSize": 38614649,
+      "sha256": "27d14e749b94c9f0acbd7f8251eb63f0458a4187677649537633fe646e5f2975",
+      "releaseNotes": "오디오북 유통사 등록기 1.0.4 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -189,7 +189,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-03T01:59:23.031967+00:00"
+      "publishedAt": "2026-11-03T04:37:23.188095+00:00"
     },
     {
       "id": "cp-bulk-upload",
@@ -240,5 +240,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-11-03T01:59:23.031967+00:00"
+  "generatedAt": "2026-11-03T04:37:23.188095+00:00"
 }
