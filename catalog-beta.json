@@ -147,16 +147,16 @@
     {
       "id": "millie-individual-uploader",
       "name": "밀리의서재 개별 등록 자동화",
-      "description": "기등록 자동 제외 · 종이책 조회 실패 시 종이책 정보 삭제 후 등록 계속 · 동일 엑셀 이력 관리 · KEPA Beta",
+      "description": "등록 접수 후 지연 로딩·완료 알림 검증 강화 · 상세 URL 원본 Excel 즉시 기록 · KEPA Beta",
       "category": "CMS 자동화",
       "section": "daily",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "entrypoint": "MillieIndividualUploader.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.14/millie_individual_uploader_v0.1.14_win-x64.zip",
-      "packageName": "millie_individual_uploader_v0.1.14_win-x64.zip",
-      "packageSize": 78154957,
-      "sha256": "6b3007563ee9ff961773ce14cb1acb79bc3b94e168530c2ae5e9d8ac41c9b8f4",
-      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.14 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.15/millie_individual_uploader_v0.1.15_win-x64.zip",
+      "packageName": "millie_individual_uploader_v0.1.15_win-x64.zip",
+      "packageSize": 78159966,
+      "sha256": "6c789a580bb734f19b46f0363505029588b796048382da96ced18152db76e16c",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.15 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -166,7 +166,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-04T03:41:47.158356+00:00"
+      "publishedAt": "2026-11-04T05:17:51.816029+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-11-04T03:41:47.158356+00:00"
+  "generatedAt": "2026-11-04T05:17:51.816029+00:00"
 }
