@@ -145,6 +145,30 @@
       "publishedAt": "2026-09-10T07:03:00.994749+00:00"
     },
     {
+      "id": "millie-individual-uploader",
+      "name": "밀리의서재 개별 등록 자동화",
+      "description": "등록 접수 후 지연 로딩·완료 알림 검증 강화 · 상세 URL 원본 Excel 즉시 기록 · KEPA Beta",
+      "category": "CMS 자동화",
+      "section": "daily",
+      "version": "0.1.15",
+      "entrypoint": "MillieIndividualUploader.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.15/millie_individual_uploader_v0.1.15_win-x64.zip",
+      "packageName": "millie_individual_uploader_v0.1.15_win-x64.zip",
+      "packageSize": 78159966,
+      "sha256": "6c789a580bb734f19b46f0363505029588b796048382da96ced18152db76e16c",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.15 업데이트\n\n- 밀리의서재 개별등록 자동화",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-11-04T05:30:04.634600+00:00"
+    },
+    {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
       "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
@@ -240,5 +264,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-11-03T04:37:23.188095+00:00"
+  "generatedAt": "2026-11-04T05:30:04.634600+00:00"
 }
