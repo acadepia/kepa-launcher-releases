@@ -150,13 +150,13 @@
       "description": "원본 재료 Excel 처리상태 직접 저장·재실행 미처리만 등록 · 안전한 접수 루프 · KEPA Beta",
       "category": "CMS 자동화",
       "section": "daily",
-      "version": "0.1.12",
+      "version": "0.1.13",
       "entrypoint": "MillieIndividualUploader.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.12/millie_individual_uploader_v0.1.12_win-x64.zip",
-      "packageName": "millie_individual_uploader_v0.1.12_win-x64.zip",
-      "packageSize": 78148776,
-      "sha256": "3de3450a82b1d645f7128782520f8ab7a510c5dd18685fd6bb36444be5fbbfea",
-      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.12 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/millie-individual-uploader-v0.1.13/millie_individual_uploader_v0.1.13_win-x64.zip",
+      "packageName": "millie_individual_uploader_v0.1.13_win-x64.zip",
+      "packageSize": 78152446,
+      "sha256": "d8bac42c7dc460570ee1935111dd51d326b315be573a3e935687679ed3b0d89a",
+      "releaseNotes": "밀리의서재 개별 등록 자동화 0.1.13 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -166,7 +166,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-04T01:04:06.250985+00:00"
+      "publishedAt": "2026-11-04T01:55:10.833979+00:00"
     },
     {
       "id": "bookmark-creator",
@@ -264,5 +264,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-11-04T01:04:06.250985+00:00"
+  "generatedAt": "2026-11-04T01:55:10.833979+00:00"
 }
