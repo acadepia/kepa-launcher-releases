@@ -174,13 +174,13 @@
       "description": "완성 PDF 사례 학습 및 AI 기반 북마크 생성(외부 AI 전송 동의가 필요하며 API 별도 과금). Beta는 PDF 전처리 미구현.",
       "category": "PDF 도구",
       "section": "main",
-      "version": "2.0.2",
+      "version": "2.0.4",
       "entrypoint": "bookmark_creator.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/bookmark-creator-v2.0.2/bookmark-creator_2.0.2_win-x64.zip",
-      "packageName": "bookmark-creator_2.0.2_win-x64.zip",
-      "packageSize": 42903002,
-      "sha256": "54b0fc389d79e4401fb79651bfca88c759eebef0e1ccc047fb6ba23c082d5c92",
-      "releaseNotes": "북마크 자동생성 2.0.2 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/bookmark-creator-v2.0.4/bookmark-creator_2.0.4_win-x64.zip",
+      "packageName": "bookmark-creator_2.0.4_win-x64.zip",
+      "packageSize": 45035835,
+      "sha256": "db1dc8833941188f78256ebde90bdab8390894e2dbcf24a63fa4cae277b33053",
+      "releaseNotes": "북마크 자동생성 2.0.4 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -190,7 +190,7 @@
         "--version"
       ],
       "dataPolicy": "external-ai-opt-in",
-      "publishedAt": "2026-11-09T05:30:08.317620+00:00"
+      "publishedAt": "2026-11-09T07:41:35.147882+00:00"
     },
     {
       "id": "audiobook-bulk-upload",
@@ -265,5 +265,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-11-09T05:30:08.317620+00:00"
+  "generatedAt": "2026-11-09T07:41:35.147882+00:00"
 }
