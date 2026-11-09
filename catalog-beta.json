@@ -263,7 +263,31 @@
       ],
       "dataPolicy": "local-only",
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
+    },
+    {
+      "id": "association-receipts",
+      "name": "협회 연회비·특별회비 영수증",
+      "description": "2026년 회비 납부자료 기반 A4 PDF 영수증 미리보기·수정·이중저장·발급관리",
+      "category": "회비·영수증",
+      "section": "daily",
+      "version": "0.1.4",
+      "entrypoint": "association_receipts.exe",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/association-receipts-v0.1.4/association-receipts_0.1.4_win-x64.zip",
+      "packageName": "association-receipts_0.1.4_win-x64.zip",
+      "packageSize": 44871018,
+      "sha256": "07296f4826a035e7b0394e7350658f84e5c7349c70246cc9dbaa9ad5980c07b7",
+      "releaseNotes": "협회 연회비·특별회비 영수증 0.1.4 업데이트\n\n-",
+      "mandatory": false,
+      "order": 100,
+      "healthCheckArgs": [
+        "--health-check"
+      ],
+      "versionArgs": [
+        "--version"
+      ],
+      "dataPolicy": "local-only",
+      "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-09T07:41:35.147882+00:00"
+  "generatedAt": "2026-11-09T08:12:55.702770+00:00"
 }
