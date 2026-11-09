@@ -171,15 +171,16 @@
     {
       "id": "bookmark-creator",
       "name": "북마크 자동생성",
-      "description": "PDF 목차를 TXT와 Excel로 구조화한 뒤 검수된 정보를 기준으로 PDF 북마크를 생성합니다.",
+      "description": "완성 PDF 사례 학습 및 AI 기반 북마크 생성(외부 AI 전송 동의가 필요하며 API 별도 과금). Beta는 PDF 전처리 미구현.",
       "category": "PDF 도구",
-      "version": "1.0.1",
+      "section": "main",
+      "version": "2.0.2",
       "entrypoint": "bookmark_creator.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/bookmark-creator-v1.0.1/bookmark-creator_1.0.1_win-x64.zip",
-      "packageName": "bookmark-creator_1.0.1_win-x64.zip",
-      "packageSize": 33018228,
-      "sha256": "6101c4d14fd491ab381f2b5fdfca846aa5103e567c6c9cdcbd315110a4525fb3",
-      "releaseNotes": "통합런처 업데이트 기능 시험\n\n- 버전 1.0.0에서 1.0.1로 업데이트\n- 화면 상단에 런처 업데이트 시험판 표시\n- 기존 북마크 생성 기능은 동일",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/bookmark-creator-v2.0.2/bookmark-creator_2.0.2_win-x64.zip",
+      "packageName": "bookmark-creator_2.0.2_win-x64.zip",
+      "packageSize": 42903002,
+      "sha256": "54b0fc389d79e4401fb79651bfca88c759eebef0e1ccc047fb6ba23c082d5c92",
+      "releaseNotes": "북마크 자동생성 2.0.2 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -188,8 +189,8 @@
       "versionArgs": [
         "--version"
       ],
-      "dataPolicy": "local-only",
-      "publishedAt": "2026-07-31T00:27:23.821205+00:00"
+      "dataPolicy": "external-ai-opt-in",
+      "publishedAt": "2026-11-09T05:30:08.317620+00:00"
     },
     {
       "id": "audiobook-bulk-upload",
@@ -264,5 +265,5 @@
       "publishedAt": "2026-10-20T08:33:18.810030+00:00"
     }
   ],
-  "generatedAt": "2026-11-04T05:17:51.816029+00:00"
+  "generatedAt": "2026-11-09T05:30:08.317620+00:00"
 }
