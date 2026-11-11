@@ -223,19 +223,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.27 Beta: 첫 파일 목록 자동 생성, 예스24 변경된 등록현황 헤더 안전 처리 및 진단 보강",
+      "description": "v2.3.28 Beta: 예스24 2026 공식 템플릿 고정 및 크레마 XLS Excel COM 직접값 입력 복구",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.27",
+      "version": "2.3.28",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.27/cp-bulk-upload_2.3.27_win-x64-2ac52ede6bbc.zip",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.28/cp-bulk-upload_2.3.28_win-x64-57939fa3681f.zip",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734554304"
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734633674"
       ],
-      "packageName": "cp-bulk-upload_2.3.27_win-x64.zip",
-      "packageSize": 45664886,
-      "sha256": "2ac52ede6bbc1dee068417ef8a9d6968adf9dc5f5b69229613284aa3e19c17d6",
-      "releaseNotes": "유통사 대량등록기 2.3.27 업데이트\n\n-",
+      "packageName": "cp-bulk-upload_2.3.28_win-x64.zip",
+      "packageSize": 45664387,
+      "sha256": "57939fa3681f19887b28437e4b3e875c29a1a69ab3e165822f25568e9f312772",
+      "releaseNotes": "유통사 대량등록기 2.3.28 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -245,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-11T07:19:48.926155+00:00"
+      "publishedAt": "2026-11-11T07:48:25.852271+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-11T07:19:48.926155+00:00"
+  "generatedAt": "2026-11-11T07:48:25.852271+00:00"
 }
