@@ -223,16 +223,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.23 Beta: 유통사별 중복 ISBN 판매상태(교보 정상/리디 승인+공개) 우선 판정, 캐시 스키마 마이그레이션, 가능리스트 대량 누락 경고",
+      "description": "v2.3.25 Beta: v2.3.24 기능 유지, PowerShell 5.1 의존성 검사/venv 복구 및 빌드 진단 개선",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.23",
+      "version": "2.3.25",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.23/cp-bulk-upload_2.3.23_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.23_win-x64.zip",
-      "packageSize": 45172067,
-      "sha256": "29734dc6822f401e193d64e0603edfedd0e005a56407247e8ca9ff00fb2b0058",
-      "releaseNotes": "유통사 대량등록기 2.3.23 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.25/cp-bulk-upload_2.3.25_win-x64-877233c3f68f.zip",
+      "packageMirrors": [
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734301383"
+      ],
+      "packageName": "cp-bulk-upload_2.3.25_win-x64.zip",
+      "packageSize": 45582526,
+      "sha256": "877233c3f68f34b4bd40c71bc7316bc24ae670acf20d0d3d1da2a1900719bcff",
+      "releaseNotes": "유통사 대량등록기 2.3.25 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -242,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-14T07:28:59.887945+00:00"
+      "publishedAt": "2026-11-11T05:43:02.427658+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -293,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-11T01:40:42.545065+00:00"
+  "generatedAt": "2026-11-11T05:43:02.427658+00:00"
 }
