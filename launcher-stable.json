@@ -1,14 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.1.0/KEPA_Launcher_1.1.0_stable_win-x64.zip",
-  "packageName": "KEPA_Launcher_1.1.0_stable_win-x64.zip",
-  "packageSize": 95135865,
-  "sha256": "7ee2023b7cf9036dcdf0184d45082d5e4107a829c7295993f8c24faa74ddd5a8",
-  "releaseNotes": "KEPA 통합런처 1.1.0 업데이트\n\n- 런처 변경",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.1.1/KEPA_Launcher_1.1.1_stable_win-x64-a06c8fe18098.zip",
+  "packageMirrors": [
+    "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/733700439"
+  ],
+  "packageName": "KEPA_Launcher_1.1.1_stable_win-x64.zip",
+  "packageSize": 95139867,
+  "sha256": "a06c8fe1809852dbc29ee299b215a11f7fb0e2326d637e09172b790714a82185",
+  "releaseNotes": "KEPA 통합런처 1.1.1 업데이트\n\n- 런처 업데이트(호환성)",
   "mandatory": false,
-  "publishedAt": "2026-08-27T05:32:53.743804+00:00"
+  "publishedAt": "2026-11-11T01:44:41.916360+00:00"
 }
