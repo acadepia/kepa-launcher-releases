@@ -245,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-11T07:48:25.852271+00:00"
+      "publishedAt": "2026-11-11T07:48:49.505880+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-11T07:48:25.852271+00:00"
+  "generatedAt": "2026-11-11T07:48:49.505880+00:00"
 }
