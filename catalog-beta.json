@@ -223,19 +223,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.25 Beta: v2.3.24 기능 유지, PowerShell 5.1 의존성 검사/venv 복구 및 빌드 진단 개선",
+      "description": "v2.3.26 Beta: 첫 파일 목록 자동 생성, 예스24 변경된 등록현황 헤더 안전 처리 및 진단 보강",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.25",
+      "version": "2.3.26",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.25/cp-bulk-upload_2.3.25_win-x64-877233c3f68f.zip",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.26/cp-bulk-upload_2.3.26_win-x64-8daf2eb0eec4.zip",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734301383"
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734391316"
       ],
-      "packageName": "cp-bulk-upload_2.3.25_win-x64.zip",
-      "packageSize": 45582526,
-      "sha256": "877233c3f68f34b4bd40c71bc7316bc24ae670acf20d0d3d1da2a1900719bcff",
-      "releaseNotes": "유통사 대량등록기 2.3.25 업데이트\n\n-",
+      "packageName": "cp-bulk-upload_2.3.26_win-x64.zip",
+      "packageSize": 45584052,
+      "sha256": "8daf2eb0eec4672ff1990cfc8ae9c7692b73f19f6dda61eebd836dcb5ae384fe",
+      "releaseNotes": "유통사 대량등록기 2.3.26 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -245,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-11T05:43:02.427658+00:00"
+      "publishedAt": "2026-11-11T06:20:34.915642+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-11T05:43:02.427658+00:00"
+  "generatedAt": "2026-11-11T06:20:34.915642+00:00"
 }
