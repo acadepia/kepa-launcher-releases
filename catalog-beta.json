@@ -223,19 +223,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.29 Beta: 예스24 37행 시작 및 카테고리명 옆열 선택·최종변환 복구",
+      "description": "v2.3.30 Beta: 예스24 틀고정 해제/카테고리 자동코드/180일 대여, 크레마 Google 상품코드 캐시 매칭 보강",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.29",
+      "version": "2.3.30",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.29/cp-bulk-upload_2.3.29_win-x64-d8d71de980b7.zip",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.30/cp-bulk-upload_2.3.30_win-x64-7019103b296e.zip",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737495540"
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737690565"
       ],
-      "packageName": "cp-bulk-upload_2.3.29_win-x64.zip",
-      "packageSize": 45666165,
-      "sha256": "d8d71de980b7f81ad4962fac1de97f6fdeaa40b960d80bf13ac24733909b1a6c",
-      "releaseNotes": "유통사 대량등록기 2.3.29 업데이트\n\n-",
+      "packageName": "cp-bulk-upload_2.3.30_win-x64.zip",
+      "packageSize": 45669072,
+      "sha256": "7019103b296e8fa9091ea0731a76e8d26646430bd5b1916d76a7912afd05745e",
+      "releaseNotes": "유통사 대량등록기 2.3.30 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -245,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-12T00:51:28.656673+00:00"
+      "publishedAt": "2026-11-12T02:05:20.686714+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-12T00:51:28.656673+00:00"
+  "generatedAt": "2026-11-12T02:05:20.686714+00:00"
 }
