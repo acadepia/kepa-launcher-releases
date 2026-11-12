@@ -223,19 +223,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.28 Beta: 예스24 2026 공식 템플릿 고정 및 크레마 XLS Excel COM 직접값 입력 복구",
+      "description": "v2.3.29 Beta: 예스24 37행 시작 및 카테고리명 옆열 선택·최종변환 복구",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.28",
+      "version": "2.3.29",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.28/cp-bulk-upload_2.3.28_win-x64-57939fa3681f.zip",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.29/cp-bulk-upload_2.3.29_win-x64-d8d71de980b7.zip",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/734633674"
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737495540"
       ],
-      "packageName": "cp-bulk-upload_2.3.28_win-x64.zip",
-      "packageSize": 45664387,
-      "sha256": "57939fa3681f19887b28437e4b3e875c29a1a69ab3e165822f25568e9f312772",
-      "releaseNotes": "유통사 대량등록기 2.3.28 업데이트\n\n-",
+      "packageName": "cp-bulk-upload_2.3.29_win-x64.zip",
+      "packageSize": 45666165,
+      "sha256": "d8d71de980b7f81ad4962fac1de97f6fdeaa40b960d80bf13ac24733909b1a6c",
+      "releaseNotes": "유통사 대량등록기 2.3.29 업데이트\n\n-",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -245,7 +245,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-11T07:48:49.505880+00:00"
+      "publishedAt": "2026-11-12T00:51:28.656673+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-11T07:48:49.505880+00:00"
+  "generatedAt": "2026-11-12T00:51:28.656673+00:00"
 }
