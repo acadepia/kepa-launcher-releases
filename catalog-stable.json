@@ -222,16 +222,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.23 Beta: 유통사별 중복 ISBN 판매상태(교보 정상/리디 승인+공개) 우선 판정, 캐시 스키마 마이그레이션, 가능리스트 대량 누락 경고",
+      "description": "v2.3.31 Beta: 크레마 상품번호 별도 조회, 사전검수 팝업, 주말 제외 다음 영업일 오픈",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.23",
+      "version": "2.3.31",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.23/cp-bulk-upload_2.3.23_win-x64.zip",
-      "packageName": "cp-bulk-upload_2.3.23_win-x64.zip",
-      "packageSize": 45172067,
-      "sha256": "29734dc6822f401e193d64e0603edfedd0e005a56407247e8ca9ff00fb2b0058",
-      "releaseNotes": "유통사 대량등록기 2.3.23 업데이트\n\n-",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.31/cp-bulk-upload_2.3.31_win-x64-0dea733f7add.zip",
+      "packageMirrors": [
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737964234"
+      ],
+      "packageName": "cp-bulk-upload_2.3.31_win-x64.zip",
+      "packageSize": 45673799,
+      "sha256": "0dea733f7add33f82d8fac569feeb1c8860ced26612413a5ae5fcb3cbd24e8cb",
+      "releaseNotes": "유통사 대량등록기 2.3.31 업데이트\n\n- 예스 밀리 변경점 대응",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -241,7 +244,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-14T07:45:58.029937+00:00"
+      "publishedAt": "2026-11-12T04:15:15.559807+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -268,5 +271,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-11-12T04:14:44.681666+00:00"
+  "generatedAt": "2026-11-12T04:15:15.559807+00:00"
 }
