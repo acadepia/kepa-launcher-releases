@@ -55,16 +55,16 @@
       "description": "교보·예스24·알라딘·리디 유통 검수와 Daum 안내메일 발송을 지원합니다. 리디북스는 CSV 여러 개뿐 아니라 다운로드 ZIP을 그대로 선택해 내부 CSV들을 병합할 수 있습니다.",
       "category": "유통 검수",
       "section": "main",
-      "version": "1.6.2",
+      "version": "1.6.3",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.6.2/distribution-checker_1.6.2_win-x64-dcf1ad8e7237.zip",
+      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.6.3/distribution-checker_1.6.3_win-x64-cf7eaca89c47.zip",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/733689443"
+        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/738022812"
       ],
-      "packageName": "distribution-checker_1.6.2_win-x64.zip",
-      "packageSize": 40070266,
-      "sha256": "dcf1ad8e72378a0086ffa9ddd00d1c82069ec762af12a27ea4cf0bb4c81ab854",
-      "releaseNotes": "도서 유통 확인 1.6.2 업데이트\n\n-",
+      "packageName": "distribution-checker_1.6.3_win-x64.zip",
+      "packageSize": 40071474,
+      "sha256": "cf7eaca89c47314f1685f8e856432003659507715b348c482e7b504e991e8e09",
+      "releaseNotes": "도서 유통 확인 1.6.3 업데이트\n\n-",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -74,7 +74,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-11T01:40:42.545065+00:00"
+      "publishedAt": "2026-11-12T04:13:26.972352+00:00"
     },
     {
       "id": "nlk_deposit_kepa",
@@ -296,5 +296,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-12T03:50:32.970093+00:00"
+  "generatedAt": "2026-11-12T04:13:26.972352+00:00"
 }
