@@ -1,14 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "beta",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.1.0/KEPA_Launcher_1.1.0_beta_win-x64.zip",
-  "packageName": "KEPA_Launcher_1.1.0_beta_win-x64.zip",
-  "packageSize": 95135863,
-  "sha256": "4da8f01f438d3f9520c0b76e3a38cbdd5f41814cbdd2fe8d9bfa9f39783296a4",
-  "releaseNotes": "KEPA 통합런처 1.1.0 업데이트\n\n- 런처 업데이트 / 자주, 메인",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-6b5f991e4dc780a8ab74/kepa-launcher_1.2.0_beta_win-x64-bfcac7e84278.zip",
+  "packageMirrors": [
+    "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/766075242"
+  ],
+  "packageName": "kepa-launcher_1.2.0_beta_win-x64.zip",
+  "packageSize": 142818735,
+  "sha256": "bfcac7e842783eba18a91dd058b810267cc64c4bc822495ab360faadf92cf4e0",
+  "releaseNotes": "# KEPA 런처 1.2.0 Beta 3\n\n- 추가: 런처의 **의견 보내기**에서 이름과 요청 내용을 Google 시트에 기록할 수 있습니다. 관리자는 Dev Center의 **사용자 피드백 확인**에서 내용을 확인하고 해결 상태를 기록할 수 있습니다.\n- 보존: 기존 1.1.1에서 사용하던 프로그램과 업무 데이터 경로, 설치 설정 및 업데이트 복구 구조를 유지합니다.\n- 제한: Beta와 Stable은 기존처럼 업무 데이터 경로를 공유합니다. 채널 완전 분리 및 데이터 이전은 이 버전에 포함되지 않습니다.\n- 제한: 피드백에는 해당 PC에 기존 유통사 Google 클라이언트 설정과 시트 ID가 필요하며, 공통 Google 계정 로그인과 시트 쓰기 권한이 필요합니다. 다른 직원 PC에서의 동작은 아직 검증하지 않았습니다.\n- 검증: 오프라인 업데이트·복구 회귀 12개, 기존 데이터 경로 일치, 실제 Google 시트 시험 글과 해결 이력, Windows 실행파일 상태 검사 및 분리 폴더 최초 설치를 확인했습니다. 실제 직원 PC의 업데이트와 업무 실행은 아직 검증하지 않았습니다.\n- 공통 피드백 소스: `kepa-dev-center-v1.3.0-beta.7`, 커밋 `fb4ebadc01a17e7a2ae91aa9cde4b0cde2f8be79`, 실행파일 SHA-256 `9d51d155cabe43e7f75251e67e497f1c03ad1ab163477df44db33320a70c9700`.\n\n예정 소스 태그: `kepa-launcher-v1.2.0-beta.3`. 이 버전은 Beta 시험용이며 Stable 배포가 아닙니다.",
   "mandatory": false,
-  "publishedAt": "2026-08-27T05:28:43.882597+00:00"
+  "publishedAt": "2026-11-19T03:35:51.286218+00:00"
 }
