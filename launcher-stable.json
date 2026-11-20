@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "channel": "stable",
-  "version": "1.2.1",
+  "version": "1.1.1",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/770884676",
+  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.1.1/KEPA_Launcher_1.1.1_stable_win-x64-a06c8fe18098.zip",
   "packageMirrors": [
-    "https://github.com/acadepia/kepa-launcher-releases/releases/download/kepa-launcher-v1.2.1/KEPA_Launcher_1.2.1_Stable_Update.zip"
+    "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/733700439"
   ],
-  "packageName": "KEPA_Launcher_1.2.1_Stable_Update.zip",
-  "packageSize": 142822773,
-  "sha256": "38e0e636ba93255dfe082527046465ab7b09ccbc6350c4f41e481623b38b32df",
-  "releaseNotes": "1.2.1: 업무 프로그램 설명서와 의견 보내기 제공, 앱 상태 검사 경로와 런처 업데이트 데이터 보호 개선. 설명서는 확인 중인 초안입니다.",
+  "packageName": "KEPA_Launcher_1.1.1_stable_win-x64.zip",
+  "packageSize": 95139867,
+  "sha256": "a06c8fe1809852dbc29ee299b215a11f7fb0e2326d637e09172b790714a82185",
+  "releaseNotes": "KEPA 통합런처 1.1.1 업데이트\n\n- 런처 업데이트(호환성)",
   "mandatory": false,
-  "publishedAt": "2026-11-20T08:12:42.367908+00:00"
+  "publishedAt": "2026-11-11T01:44:41.916360+00:00"
 }
