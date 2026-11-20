@@ -4,9 +4,9 @@
   "version": "1.2.1",
   "entryPoint": "KepaLauncher.exe",
   "updaterEntryPoint": "KepaLauncher.Updater.exe",
-  "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-fb476e0630c0e846791d/kepa-launcher_1.2.1_beta_win-x64-4706ede854ca.zip",
+  "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/770857470",
   "packageMirrors": [
-    "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/770857470"
+    "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-fb476e0630c0e846791d/kepa-launcher_1.2.1_beta_win-x64-4706ede854ca.zip"
   ],
   "packageName": "kepa-launcher_1.2.1_beta_win-x64.zip",
   "packageSize": 142822761,
