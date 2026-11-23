@@ -226,19 +226,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.31 Beta: 크레마 상품번호 별도 조회, 사전검수 팝업, 주말 제외 다음 영업일 오픈",
+      "description": "예스24 카테고리 검수를 유지하고 최종 양식을 보존합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.31",
+      "version": "2.3.32",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.31/cp-bulk-upload_2.3.31_win-x64-0dea733f7add.zip",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/781863030",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737964234"
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.32-beta.7/cp-bulk-upload_2.3.32_beta_win-x64-b0af9b0f8e11.zip"
       ],
-      "packageName": "cp-bulk-upload_2.3.31_win-x64.zip",
-      "packageSize": 45673799,
-      "sha256": "0dea733f7add33f82d8fac569feeb1c8860ced26612413a5ae5fcb3cbd24e8cb",
-      "releaseNotes": "유통사 대량등록기 2.3.31 업데이트\n\n-",
+      "packageName": "cp-bulk-upload_2.3.32_beta_win-x64.zip",
+      "packageSize": 45675491,
+      "sha256": "b0af9b0f8e110f2f03e2b6070b53414913959a0abdbe41a5162f87c673c5be7c",
+      "releaseNotes": "# 유통사 대량등록기 2.3.32 Beta 7\n\n소스 태그: `cp-bulk-upload-v2.3.32-beta.7`\n\n- 수정: 예스24 2026 검수 파일을 최종 변환 경로에서 인식하고 선택한 카테고리 코드를 반영합니다.\n- 보존: 검수 중 카테고리명과 후보 선택 화면은 유지합니다. 최종 업로드 파일은 원본 양식의 빈 입력 칸에 텍스트를 기록합니다.\n- 보안: 신규 설치용 기본 서명에 개인 연락처를 포함하지 않습니다. 이미 저장된 개인 설정은 유지합니다.\n- 추가: 메일·담당자 설정에서 회사 서명과 연락처를 직접 확인하고 수정할 수 있습니다.\n- 화면: 높은 화면 배율에서도 메일 설정의 저장·취소 버튼이 보이도록 배치를 수정합니다.\n- 검증: 다섯 유통사의 검수 행 읽기와 예스24 원본 양식 보존을 정식 회귀 검사에 포함합니다.\n- 검증: Dev Center의 빌드·회귀 명령에서 별도의 임시 사용자 폴더와 소스 사본을 사용합니다.\n- 패키지: 사용하지 않는 App Engine 문서만 제외하고 Google Sheets 기능에 필요한 문서는 보존합니다.\n- 패키지: 실행파일과 함께 프로그램 식별·버전 정보를 기존 위치에 보존합니다.\n- 제한: 예스24 최종 업로드 파일에 원본 양식에 명시적으로 존재하는 빈 입력 셀만 사용합니다. 해당 셀이 없거나 이미 값이 있으면 중단합니다.",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -248,7 +248,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-12T03:50:32.970093+00:00"
+      "publishedAt": "2026-11-23T06:47:20.276073+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -299,5 +299,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-12T05:25:55.593426+00:00"
+  "generatedAt": "2026-11-23T06:47:20.276073+00:00"
 }
