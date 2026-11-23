@@ -225,19 +225,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "v2.3.31 Beta: 크레마 상품번호 별도 조회, 사전검수 팝업, 주말 제외 다음 영업일 오픈",
+      "description": "예스24 카테고리 검수를 유지하고 최종 양식을 보존합니다.",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.31",
+      "version": "2.3.32",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.31/cp-bulk-upload_2.3.31_win-x64-0dea733f7add.zip",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/781947046",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/737964234"
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-c45c7d7347d8e2b862da/cp-bulk-upload_2.3.32_beta_win-x64-b0af9b0f8e11.zip"
       ],
-      "packageName": "cp-bulk-upload_2.3.31_win-x64.zip",
-      "packageSize": 45673799,
-      "sha256": "0dea733f7add33f82d8fac569feeb1c8860ced26612413a5ae5fcb3cbd24e8cb",
-      "releaseNotes": "유통사 대량등록기 2.3.31 업데이트\n\n- 예스 밀리 변경점 대응",
+      "packageName": "cp-bulk-upload_2.3.32_beta_win-x64.zip",
+      "packageSize": 45675491,
+      "sha256": "b0af9b0f8e110f2f03e2b6070b53414913959a0abdbe41a5162f87c673c5be7c",
+      "releaseNotes": "# 유통사 대량등록기 2.3.32 Stable\n\n소스 태그: `cp-bulk-upload-v2.3.32`\n\n- 예스24 2026 검수 양식에서 카테고리명과 코드를 확인·선택하는 기존 기능을 유지합니다.\n- 최종 업로드 파일은 원본 예스24 양식의 기존 입력 칸에 텍스트를 기록합니다.\n- 메일·담당자 설정에서 회사 서명과 연락처를 직접 수정할 수 있으며 기존 사용자 서명은 유지합니다.\n- 공통 행 읽기, 양식 보존, 메일 설정 및 런처 업데이트는 격리된 가상 자료로 검증했습니다.\n- 실무자 테스트는 사용자의 요청에 따라 Stable 배포 후 진행합니다. 실제 예스24 CMS 업로드와 사용자 PC 업데이트 결과는 아직 확인되지 않았습니다.\n- 양식에 준비된 1,000개 입력 행을 넘거나 기존 값이 있는 칸에 입력해야 하면 중단합니다.",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -247,7 +247,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-12T04:15:15.559807+00:00"
+      "publishedAt": "2026-11-23T07:17:32.127428+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -274,5 +274,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-11-12T05:26:24.957056+00:00"
+  "generatedAt": "2026-11-23T07:17:32.127428+00:00"
 }
