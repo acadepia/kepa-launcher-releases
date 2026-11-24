@@ -225,19 +225,19 @@
     {
       "id": "cp-bulk-upload",
       "name": "유통사 대량등록기",
-      "description": "예스24 직거래 검수 표시 및 크레마 검수 후 등록양식 생성",
+      "description": "예스24 저자·ISSN·종이책 ISBN 출력 보완",
       "category": "유통사 등록",
       "section": "main",
-      "version": "2.3.35",
+      "version": "2.3.36",
       "entrypoint": "cp_bulk_upload.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/cp-bulk-upload-v2.3.35/cp-bulk-upload_2.3.35_beta_win-x64-4a7fc856bf75.zip",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785719542",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785671602"
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-f0a6b908491788298b85/cp-bulk-upload_2.3.36_beta_win-x64-fb5f4d6b1940.zip"
       ],
-      "packageName": "cp-bulk-upload_2.3.35_beta_win-x64.zip",
-      "packageSize": 45680602,
-      "sha256": "4a7fc856bf75a7487a3f4214fb4fb53813bac4b8031255c2ff350ed8e674aefa",
-      "releaseNotes": "유통사 대량등록기 2.3.35\n- 예스24 대량등록기 수정",
+      "packageName": "cp-bulk-upload_2.3.36_beta_win-x64.zip",
+      "packageSize": 45681698,
+      "sha256": "fb5f4d6b19401fb95f94944f24003fa4ecef8d95a9e03256819505bec25f64bb",
+      "releaseNotes": "# 유통사 대량등록기 2.3.36 Beta 1\n\n- 예스24 전자책 등록 양식의 저자를 입력 순서대로 최대 10명으로 제한하고 역자 구분을 유지합니다.\n- CMS ISSN을 공식 양식의 ISSN 열에 유지하고, 종이책 ISBN은 정규화 후 숫자 13자리만 출력합니다.\n- 검수 파일과 최종 업로드 변환에 동일한 기준을 적용하고 공식 양식의 구조를 보존합니다.\n\n## 2.3.35 Beta 1\n\n소스 태그: `cp-bulk-upload-v2.3.35-beta.1`\n\n- 수정: 예스24 검수 파일에서 제한사항에 직거래로 표시된 출판사의 셀을 빨간색으로 표시합니다.\n- 보존: 직거래 표시와 메모는 검수 파일에만 나타나며, 최종 업로드 파일의 원본 서식은 유지합니다.\n\n- 추가: 구독 가능 리스트를 검수한 뒤 남은 크레마클럽 행만 선택해 등록양식을 생성합니다.\n- 수정: 예스 등록현황의 승인상태와 유통상태를 함께 확인하고 판매중인 행의 코드만 사용합니다.\n- 수정: 예스 등록현황의 ISSN 조회와 중복 판매중 행의 코드 충돌 처리를 반영합니다.\n\n- 수정: 원본 양식의 R40·R46처럼 셀이 생략된 빈 입력 칸도 최종 변환합니다.\n- 수정: 최종 텍스트를 실무자 성공 파일과 같은 공유 문자열 방식으로 저장합니다. 실제 CMS 업로드 확인은 남아 있습니다.\n- 변경: 예스24 대여일·대여가 출력을 중단하고 대여불가로 표기합니다. 대여 계산 코드는 보존합니다.\n\n- 수정: 예스24 2026 검수 파일을 최종 변환 경로에서 인식하고 선택한 카테고리 코드를 반영합니다.\n- 보존: 검수 중 카테고리명과 후보 선택 화면은 유지합니다. 최종 업로드 파일은 원본 양식의 빈 입력 칸에 텍스트를 기록합니다.\n- 보안: 신규 설치용 기본 서명에 개인 연락처를 포함하지 않습니다. 이미 저장된 개인 설정은 유지합니다.\n- 추가: 메일·담당자 설정에서 회사 서명과 연락처를 직접 확인하고 수정할 수 있습니다.\n- 화면: 높은 화면 배율에서도 메일 설정의 저장·취소 버튼이 보이도록 배치를 수정합니다.\n- 검증: 다섯 유통사의 검수 행 읽기와 예스24 원본 양식 보존을 정식 회귀 검사에 포함합니다.\n- 검증: Dev Center의 빌드·회귀 명령에서 별도의 임시 사용자 폴더와 소스 사본을 사용합니다.\n- 패키지: 사용하지 않는 App Engine 문서만 제외하고 Google Sheets 기능에 필요한 문서는 보존합니다.\n- 패키지: 실행파일과 함께 프로그램 식별·버전 정보를 기존 위치에 보존합니다.\n- 제한: 예스24 양식의 입력 영역을 벗어나거나 이미 값이 있는 칸은 덮어쓰지 않습니다.",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -247,7 +247,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-24T04:22:22.938657+00:00"
+      "publishedAt": "2026-11-24T04:41:09.048853+00:00"
     },
     {
       "id": "vendor-maintenance",
@@ -274,5 +274,5 @@
       "publishedAt": "2026-09-18T08:07:39.145900+00:00"
     }
   ],
-  "generatedAt": "2026-11-24T04:22:22.938657+00:00"
+  "generatedAt": "2026-11-24T04:41:09.049998+00:00"
 }
