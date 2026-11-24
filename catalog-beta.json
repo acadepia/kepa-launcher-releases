@@ -253,16 +253,19 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "실제 Google Sheet에 격리된 가상 업무 시나리오를 자동 생성/정리하는 TEST MODE 추가. 12개 핵심·예외 상황, 990 테스트 ISBN, 자동 파일/서지수정값, 테스트 수신자 강제, 테스트 행에 한정한 최종 Sheet 반영을 지원.",
+      "description": "예스 등록현황 판매 판정과 상품명·식별자 조회 개선",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.23",
+      "version": "0.1.24",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.23/vendor-maintenance_0.1.23_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.23_win-x64.zip",
-      "packageSize": 38219669,
-      "sha256": "54ab961dbbff0c0a903c538360f1fdf85234500c056f79536841f24b147a3b74",
-      "releaseNotes": "유통사 수정·판매중지 0.1.23 업데이트\n\n-",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785421624",
+      "packageMirrors": [
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-c795e3d1d38449d13370/vendor-maintenance_0.1.24_beta_win-x64-ce5725c66bb5.zip"
+      ],
+      "packageName": "vendor-maintenance_0.1.24_beta_win-x64.zip",
+      "packageSize": 38219634,
+      "sha256": "ce5725c66bb534701cef9aff5661f674b247b9bc2cbc352ce1a5e55c66706109",
+      "releaseNotes": "# 유통사 수정·판매중지 0.1.24 Beta 2\n\n소스 태그: `vendor-maintenance-v0.1.24-beta.2`\n\n- 예스 등록현황의 승인상태와 유통상태를 공통 모듈로 판정합니다.\n- 판매중인 행의 코드만 사용하고 중복 코드 충돌은 검수 대상으로 둡니다.\n- 예스24의 상품명과 ISSN 열을 조회하며 오디오북은 기존 방식으로 처리합니다.\n- 기존 사용자 서명은 유지하며 신규 설치용 기본 서명에서 개인 연락처를 제외합니다.\n- Google Sheets 설명은 유지하고 사용하지 않는 App Engine API 설명만 배포 파일에서 제외합니다.\n- 실제 사용자 PC와 업무 시트 전체 동작은 추가 확인이 필요합니다.",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -272,7 +275,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-10-20T08:33:18.810030+00:00"
+      "publishedAt": "2026-11-24T02:42:11.181370+00:00"
     },
     {
       "id": "association-receipts",
@@ -299,5 +302,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-24T02:41:17.036004+00:00"
+  "generatedAt": "2026-11-24T02:42:11.181370+00:00"
 }
