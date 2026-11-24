@@ -252,16 +252,19 @@
     {
       "id": "vendor-maintenance",
       "name": "유통사 수정·판매중지",
-      "description": "3단계 메일 전체 편집(제목/수신자/인삿말/본문/표 셀/서명) 및 3·4단계 선택 메일 제외/제외취소 기능 추가. 알라딘 판매중지 사유·날짜·비고를 미리보기 단계에서 직접 입력 가능.",
+      "description": "예스 등록현황 판매 판정과 상품명·식별자 조회 개선",
       "category": "유통사 등록",
       "section": "main",
-      "version": "0.1.20",
+      "version": "0.1.24",
       "entrypoint": "vendor_maintenance.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/vendor-maintenance-v0.1.20/vendor-maintenance_0.1.20_win-x64.zip",
-      "packageName": "vendor-maintenance_0.1.20_win-x64.zip",
-      "packageSize": 37170510,
-      "sha256": "fb2f453de66a9ea5be8c82d0d9e1686238cba9cad85a06614acbf67ef015a0b5",
-      "releaseNotes": "유통사 수정·판매중지 0.1.20 업데이트\n\n- 메일 제외 / 메일 직접 수정",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785828215",
+      "packageMirrors": [
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-53d6c149e9b42e6a9af4/vendor-maintenance_0.1.24_beta_win-x64-ce5725c66bb5.zip"
+      ],
+      "packageName": "vendor-maintenance_0.1.24_beta_win-x64.zip",
+      "packageSize": 38219634,
+      "sha256": "ce5725c66bb534701cef9aff5661f674b247b9bc2cbc352ce1a5e55c66706109",
+      "releaseNotes": "# 유통사 수정·판매중지 0.1.24 Stable\n\n소스 태그: `vendor-maintenance-v0.1.24`\n\n- 예스 등록현황의 승인상태와 유통상태를 공통 모듈로 판정합니다.\n- 판매중인 행의 코드만 사용하고 중복 코드 충돌은 검수 대상으로 둡니다.\n- 예스24의 상품명과 ISSN 열을 조회하며 오디오북은 기존 방식으로 처리합니다.\n- 기존 사용자 서명은 유지하며 신규 설치용 기본 서명에서 개인 연락처를 제외합니다.\n- Google Sheets 설명은 유지하고 사용하지 않는 App Engine API 설명만 배포 파일에서 제외합니다.\n- 실제 사용자 PC와 업무 시트 전체 동작은 추가 확인이 필요합니다.\n\n실제 실무자 PC와 업무 시트 전체 동작은 아직 확인되지 않았습니다.",
       "mandatory": false,
       "order": 100,
       "healthCheckArgs": [
@@ -271,8 +274,8 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-09-18T08:07:39.145900+00:00"
+      "publishedAt": "2026-11-24T05:26:17.428586+00:00"
     }
   ],
-  "generatedAt": "2026-11-24T05:25:46.128058+00:00"
+  "generatedAt": "2026-11-24T05:26:17.428586+00:00"
 }
