@@ -55,16 +55,16 @@
       "description": "교보·예스24·알라딘·리디 유통 검수와 Daum 안내메일 발송을 지원합니다. 리디북스는 CSV 여러 개뿐 아니라 다운로드 ZIP을 그대로 선택해 내부 CSV들을 병합할 수 있습니다.",
       "category": "유통 검수",
       "section": "main",
-      "version": "1.6.3",
+      "version": "1.6.4",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://github.com/acadepia/kepa-launcher-releases/releases/download/distribution-checker-v1.6.3/distribution-checker_1.6.3_win-x64-cf7eaca89c47.zip",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785419423",
       "packageMirrors": [
-        "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/738022812"
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-b5c9a682e600a836d39e/distribution-checker_1.6.4_beta_win-x64-43331ad40615.zip"
       ],
-      "packageName": "distribution-checker_1.6.3_win-x64.zip",
-      "packageSize": 40071474,
-      "sha256": "cf7eaca89c47314f1685f8e856432003659507715b348c482e7b504e991e8e09",
-      "releaseNotes": "도서 유통 확인 1.6.3 업데이트\n\n-",
+      "packageName": "distribution-checker_1.6.4_beta_win-x64.zip",
+      "packageSize": 40068529,
+      "sha256": "43331ad406157c76e0d137103149d2e2db8edb3e75ac504f3b898949f9c6ca84",
+      "releaseNotes": "# 도서 유통 확인 1.6.4 Beta 2\n\n소스 태그: `distribution-checker-v1.6.4-beta.2`\n\n- 예스 등록현황의 승인상태와 유통상태를 공통 모듈로 판정합니다.\n- 판매중 판정과 상품번호·eBookCode를 구분하고 판매중 행을 우선합니다.\n- 다른 유통사의 기존 판정과 사용자 자료를 유지합니다.\n- Google Sheets 설명은 유지하고 사용하지 않는 App Engine API 설명만 배포 파일에서 제외합니다.\n- 실제 사용자 PC와 업무 시트 전체 반영은 추가 확인이 필요합니다.",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -74,7 +74,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-12T04:13:26.972352+00:00"
+      "publishedAt": "2026-11-24T02:41:17.036004+00:00"
     },
     {
       "id": "nlk_deposit_kepa",
@@ -299,5 +299,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-24T02:39:43.934543+00:00"
+  "generatedAt": "2026-11-24T02:41:17.036004+00:00"
 }
