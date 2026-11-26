@@ -55,16 +55,16 @@
       "description": "교보·예스24·알라딘·리디 유통 검수와 Daum 안내메일 발송을 지원합니다. 리디북스는 CSV 여러 개뿐 아니라 다운로드 ZIP을 그대로 선택해 내부 CSV들을 병합할 수 있습니다.",
       "category": "유통 검수",
       "section": "main",
-      "version": "1.6.4",
+      "version": "1.6.5",
       "entrypoint": "distribution_checker.exe",
-      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/785419423",
+      "packageUrl": "https://api.github.com/repos/acadepia/kepa-launcher-releases/releases/assets/793933728",
       "packageMirrors": [
-        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-b5c9a682e600a836d39e/distribution-checker_1.6.4_beta_win-x64-43331ad40615.zip"
+        "https://github.com/acadepia/kepa-launcher-releases/releases/download/untagged-6a2909ec741ede9a72f2/distribution-checker_1.6.5_beta_win-x64-759ff51a5b43.zip"
       ],
-      "packageName": "distribution-checker_1.6.4_beta_win-x64.zip",
-      "packageSize": 40068529,
-      "sha256": "43331ad406157c76e0d137103149d2e2db8edb3e75ac504f3b898949f9c6ca84",
-      "releaseNotes": "# 도서 유통 확인 1.6.4 Beta 2\n\n소스 태그: `distribution-checker-v1.6.4-beta.2`\n\n- 예스 등록현황의 승인상태와 유통상태를 공통 모듈로 판정합니다.\n- 판매중 판정과 상품번호·eBookCode를 구분하고 판매중 행을 우선합니다.\n- 다른 유통사의 기존 판정과 사용자 자료를 유지합니다.\n- Google Sheets 설명은 유지하고 사용하지 않는 App Engine API 설명만 배포 파일에서 제외합니다.\n- 실제 사용자 PC와 업무 시트 전체 반영은 추가 확인이 필요합니다.",
+      "packageName": "distribution-checker_1.6.5_beta_win-x64.zip",
+      "packageSize": 40069341,
+      "sha256": "759ff51a5b43eb5b7d2f2afa6a62df8c060a25b165ae8a578ccafc2dba1dfa7b",
+      "releaseNotes": "# 도서 유통 확인 1.6.5 Beta 1\n\n소스 태그: `distribution-checker-v1.6.5-beta.1`\n\n- 예스24에서 `.xls` 이름으로 제공하는 XLSX 서지 파일을 파일 선택과 드래그앤드롭에서 인식합니다.\n- 정가와 판매가를 구분하고 ISBN 계열의 자료형을 확인합니다. 중복 eBookCode로 대상을 특정할 수 없으면 반영을 차단합니다.\n- 격리 시트에서 실제 원본 358건의 반영·재조회·재실행을 검증했습니다. 사용자 검수에서 실제 드래그앤드롭을 확인했습니다.\n\n# 도서 유통 확인 1.6.4 Beta 2\n\n소스 태그: `distribution-checker-v1.6.4-beta.2`\n\n- 예스 등록현황의 승인상태와 유통상태를 공통 모듈로 판정합니다.\n- 판매중 판정과 상품번호·eBookCode를 구분하고 판매중 행을 우선합니다.\n- 다른 유통사의 기존 판정과 사용자 자료를 유지합니다.\n- Google Sheets 설명은 유지하고 사용하지 않는 App Engine API 설명만 배포 파일에서 제외합니다.\n- 실제 사용자 PC와 업무 시트 전체 반영은 추가 확인이 필요합니다.",
       "mandatory": false,
       "order": 30,
       "healthCheckArgs": [
@@ -74,7 +74,7 @@
         "--version"
       ],
       "dataPolicy": "local-only",
-      "publishedAt": "2026-11-24T02:41:17.036004+00:00"
+      "publishedAt": "2026-11-26T01:59:29.481055+00:00"
     },
     {
       "id": "nlk_deposit_kepa",
@@ -302,5 +302,5 @@
       "publishedAt": "2026-11-09T08:12:55.702770+00:00"
     }
   ],
-  "generatedAt": "2026-11-24T05:10:58.104767+00:00"
+  "generatedAt": "2026-11-26T01:59:29.481055+00:00"
 }
